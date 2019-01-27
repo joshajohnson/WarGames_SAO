@@ -1,0 +1,80 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1571 ]
+[d frameptr 6 ]
+"62 E:\XC8\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 E:\XC8\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"15 C:\Users\jonno\Dropbox\Projects\WarGames_SAO\firmware.X\main.c
+[v _isr isr `II(v  1 e 1 0 ]
+"39
+[v _displayLED displayLED `(v  1 e 1 0 ]
+"74
+[v _main main `(v  1 e 1 0 ]
+"349 E:\XC8\include\pic12f1571.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"427
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"900
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1051
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+"1308
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1483
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+"2194
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2432
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"8997
+[v _T0IE T0IE `VEb  1 e 0 @93 ]
+"8999
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"11 C:\Users\jonno\Dropbox\Projects\WarGames_SAO\firmware.X\main.c
+[v _oneTwentyHertz oneTwentyHertz `VEuc  1 e 1 0 ]
+"12
+[v _sixtyHertz sixtyHertz `VEuc  1 e 1 0 ]
+"13
+[v _accumulator accumulator `VEuc  1 e 1 0 ]
+"74
+[v _main main `(v  1 e 1 0 ]
+{
+"113
+[v main@pos pos `c  1 a 1 7 ]
+"91
+[v main@numShown numShown `c  1 a 1 8 ]
+"92
+[v main@accumulatorTwo accumulatorTwo `uc  1 a 1 6 ]
+"90
+[v main@enable enable `uc  1 a 1 5 ]
+"89
+[v main@colour colour `uc  1 a 1 4 ]
+"93
+[v main@updateRate updateRate `uc  1 a 1 3 ]
+"95
+[v main@positions positions `DC[9]uc  1 s 9 positions ]
+"122
+} 0
+"39
+[v _displayLED displayLED `(v  1 e 1 0 ]
+{
+[v displayLED@pos pos `uc  1 a 1 wreg ]
+[v displayLED@pos pos `uc  1 a 1 wreg ]
+[v displayLED@colour colour `uc  1 p 1 2 ]
+[v displayLED@enable enable `uc  1 p 1 3 ]
+"45
+[v displayLED@ledAnode ledAnode `DC[10]uc  1 s 10 ledAnode ]
+"46
+[v displayLED@ledCathode ledCathode `DC[10]uc  1 s 10 ledCathode ]
+"48
+[v displayLED@pos pos `uc  1 a 1 0 ]
+"72
+} 0
+"15
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"36
+} 0
