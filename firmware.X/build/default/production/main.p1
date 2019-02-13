@@ -3255,270 +3255,31 @@ Version 3.2 HI-TECH Software Intermediate Code
 [p x LVP=OFF ]
 "7
 [p x FOSC=INTOSC ]
-"11
+"13
 [v _oneTwentyHertz `Vuc ~T0 @X0 1 e ]
 [i _oneTwentyHertz
 -> -> 0 `i `uc
 ]
-[; ;main.c: 11: volatile unsigned char oneTwentyHertz = 0;
-"12
+[; ;main.c: 13: volatile unsigned char oneTwentyHertz = 0;
+"14
 [v _sixtyHertz `Vuc ~T0 @X0 1 e ]
 [i _sixtyHertz
 -> -> 0 `i `uc
 ]
-[; ;main.c: 12: volatile unsigned char sixtyHertz = 0;
-"13
+[; ;main.c: 14: volatile unsigned char sixtyHertz = 0;
+"15
 [v _accumulator `Vuc ~T0 @X0 1 e ]
 [i _accumulator
 -> -> 0 `i `uc
 ]
-[; ;main.c: 13: volatile unsigned char accumulator = 0;
-[v $root$_isr `(v ~T0 @X0 0 e ]
-[v F3364 `(v ~T0 @X0 1 tf ]
-"15
-[v _isr `IF3364 ~T0 @X0 1 e ]
-"16
-{
-[; ;main.c: 15: void interrupt isr(void)
-[; ;main.c: 16: {
-[e :U _isr ]
-[f ]
-[; ;main.c: 18: if(T0IE && T0IF)
+[; ;main.c: 15: volatile unsigned char accumulator = 0;
+[v F3363 `Cuc ~T0 @X0 -> 9 `i t ]
 "18
-[e $ ! && _T0IE _T0IF 421  ]
-[; ;main.c: 19: {
+[v _positions `F3363 ~T0 @X0 -> 15 `i e ]
+[i _positions
+:U ..
+:U ..
 "19
-{
-[; ;main.c: 20: T0IF = 0;
-"20
-[e = _T0IF -> -> 0 `i `b ]
-[; ;main.c: 21: oneTwentyHertz = 1;
-"21
-[e = _oneTwentyHertz -> -> 1 `i `uc ]
-[; ;main.c: 24: if (oneTwentyHertz)
-"24
-[e $ ! != -> _oneTwentyHertz `i -> -> -> 0 `i `Vuc `i 422  ]
-[; ;main.c: 25: {
-"25
-{
-[; ;main.c: 26: oneTwentyHertz = 0;
-"26
-[e = _oneTwentyHertz -> -> 0 `i `uc ]
-[; ;main.c: 27: if (accumulator >= 1)
-"27
-[e $ ! >= -> _accumulator `i -> 1 `i 423  ]
-[; ;main.c: 28: {
-"28
-{
-[; ;main.c: 29: accumulator = 0;
-"29
-[e = _accumulator -> -> 0 `i `uc ]
-[; ;main.c: 30: sixtyHertz = 1;
-"30
-[e = _sixtyHertz -> -> 1 `i `uc ]
-"31
-}
-[; ;main.c: 31: }
-[e $U 424  ]
-"32
-[e :U 423 ]
-[; ;main.c: 32: else accumulator++;
-[e ++ _accumulator -> -> 1 `i `uc ]
-[e :U 424 ]
-"34
-}
-[e :U 422 ]
-"35
-}
-[e :U 421 ]
-[; ;main.c: 34: }
-[; ;main.c: 35: }
-[; ;main.c: 36: }
-"36
-[e :UE 420 ]
-}
-"39
-[v _displayLED `(v ~T0 @X0 1 ef3`uc`uc`uc ]
-"40
-{
-[; ;main.c: 39: void displayLED(unsigned char pos, unsigned char colour, unsigned char enable)
-[; ;main.c: 40: {
-[e :U _displayLED ]
-"39
-[v _pos `uc ~T0 @X0 1 r1 ]
-[v _colour `uc ~T0 @X0 1 r2 ]
-[v _enable `uc ~T0 @X0 1 r3 ]
-"40
-[f ]
-"45
-[v F3369 `Cuc ~T0 @X0 -> 10 `i s ledAnode ]
-[i F3369
-:U ..
--> -> 1 `i `uc
--> -> 4 `i `uc
--> -> 2 `i `uc
--> -> 5 `i `uc
--> -> 2 `i `uc
--> -> 5 `i `uc
--> -> 4 `i `uc
--> -> 5 `i `uc
--> -> 4 `i `uc
-..
-]
-"46
-[v F3370 `Cuc ~T0 @X0 -> 10 `i s ledCathode ]
-[i F3370
-:U ..
--> -> 0 `i `uc
--> -> 2 `i `uc
--> -> 1 `i `uc
--> -> 2 `i `uc
--> -> 0 `i `uc
--> -> 4 `i `uc
--> -> 1 `i `uc
--> -> 1 `i `uc
--> -> 0 `i `uc
-..
-]
-[; ;main.c: 45: const unsigned char ledAnode[10] = {1,4,2,5,2,5,4,5,4};
-[; ;main.c: 46: const unsigned char ledCathode[10] = {0,2,1,2,0,4,1,1,0};
-[; ;main.c: 48: if (enable)
-"48
-[e $ ! != -> _enable `i -> -> -> 0 `i `uc `i 426  ]
-[; ;main.c: 49: {
-"49
-{
-[; ;main.c: 50: if (colour == 0)
-"50
-[e $ ! == -> _colour `i -> 0 `i 427  ]
-[; ;main.c: 51: {
-"51
-{
-[; ;main.c: 52: TRISA = 0xFF & ~(1<<ledAnode[pos-1]|1<<ledCathode[pos-1]);
-"52
-[e = _TRISA -> & -> 255 `i ~ | << -> 1 `i *U + &U F3369 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3369 `ui `ux << -> 1 `i *U + &U F3370 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3370 `ui `ux `uc ]
-[; ;main.c: 53: PORTA = 0 | (1<<ledAnode[pos-1]);
-"53
-[e = _PORTA -> | -> 0 `i << -> 1 `i *U + &U F3369 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3369 `ui `ux `uc ]
-"54
-}
-[; ;main.c: 54: }
-[e $U 428  ]
-"55
-[e :U 427 ]
-[; ;main.c: 55: else if (colour == 1)
-[e $ ! == -> _colour `i -> 1 `i 429  ]
-[; ;main.c: 56: {
-"56
-{
-[; ;main.c: 57: TRISA = 0xFF & ~(1<<ledAnode[pos-1]|1<<ledCathode[pos-1]);
-"57
-[e = _TRISA -> & -> 255 `i ~ | << -> 1 `i *U + &U F3369 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3369 `ui `ux << -> 1 `i *U + &U F3370 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3370 `ui `ux `uc ]
-[; ;main.c: 58: PORTA = 0 | (1<<ledCathode[pos-1]);
-"58
-[e = _PORTA -> | -> 0 `i << -> 1 `i *U + &U F3370 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3370 `ui `ux `uc ]
-"59
-}
-[; ;main.c: 59: }
-[e $U 430  ]
-"60
-[e :U 429 ]
-[; ;main.c: 60: else
-[; ;main.c: 61: {
-"61
-{
-[; ;main.c: 62: TRISA = 0;
-"62
-[e = _TRISA -> -> 0 `i `uc ]
-[; ;main.c: 63: PORTA= 0;
-"63
-[e = _PORTA -> -> 0 `i `uc ]
-"64
-}
-[e :U 430 ]
-[e :U 428 ]
-"65
-}
-[; ;main.c: 64: }
-[; ;main.c: 65: }
-[e $U 431  ]
-"66
-[e :U 426 ]
-[; ;main.c: 66: else
-[; ;main.c: 67: {
-"67
-{
-[; ;main.c: 68: TRISA = 0;
-"68
-[e = _TRISA -> -> 0 `i `uc ]
-[; ;main.c: 69: PORTA= 0;
-"69
-[e = _PORTA -> -> 0 `i `uc ]
-"70
-}
-[e :U 431 ]
-[; ;main.c: 70: }
-[; ;main.c: 72: }
-"72
-[e :UE 425 ]
-}
-[v $root$_main `(v ~T0 @X0 0 e ]
-"74
-[v _main `(v ~T0 @X0 1 ef ]
-"75
-{
-[; ;main.c: 74: void main()
-[; ;main.c: 75: {
-[e :U _main ]
-[f ]
-[; ;main.c: 78: OSCCON = 0b11110000;
-"78
-[e = _OSCCON -> -> 240 `i `uc ]
-[; ;main.c: 79: ANSELA = 0;
-"79
-[e = _ANSELA -> -> 0 `i `uc ]
-[; ;main.c: 80: ADCON0 = 0;
-"80
-[e = _ADCON0 -> -> 0 `i `uc ]
-[; ;main.c: 81: TRISA = (1<<3)|(1<<4);
-"81
-[e = _TRISA -> | << -> 1 `i -> 3 `i << -> 1 `i -> 4 `i `uc ]
-[; ;main.c: 82: PORTA = 0;
-"82
-[e = _PORTA -> -> 0 `i `uc ]
-[; ;main.c: 83: WPUA = 0;
-"83
-[e = _WPUA -> -> 0 `i `uc ]
-[; ;main.c: 86: OPTION_REG = 0b10000111;
-"86
-[e = _OPTION_REG -> -> 135 `i `uc ]
-[; ;main.c: 87: INTCON = 0b10100000;
-"87
-[e = _INTCON -> -> 160 `i `uc ]
-"89
-[v _colour `uc ~T0 @X0 1 a ]
-[; ;main.c: 89: unsigned char colour = 0;
-[e = _colour -> -> 0 `i `uc ]
-"90
-[v _enable `uc ~T0 @X0 1 a ]
-[; ;main.c: 90: unsigned char enable = 1;
-[e = _enable -> -> 1 `i `uc ]
-"91
-[v _numShown `c ~T0 @X0 1 a ]
-[; ;main.c: 91: signed char numShown = -1;
-[e = _numShown -> -U -> 1 `i `c ]
-"92
-[v _accumulatorTwo `uc ~T0 @X0 1 a ]
-[; ;main.c: 92: unsigned char accumulatorTwo = 0;
-[e = _accumulatorTwo -> -> 0 `i `uc ]
-"93
-[v _updateRate `uc ~T0 @X0 1 a ]
-[; ;main.c: 93: unsigned char updateRate = 60;
-[e = _updateRate -> -> 60 `i `uc ]
-"95
-[v F3377 `Cuc ~T0 @X0 -> 9 `i s positions ]
-[i F3377
-:U ..
 -> -> 5 `i `uc
 -> -> 9 `i `uc
 -> -> 3 `i `uc
@@ -3529,88 +3290,571 @@ Version 3.2 HI-TECH Software Intermediate Code
 -> -> 4 `i `uc
 -> -> 1 `i `uc
 ..
+:U ..
+"20
+-> -> 5 `i `uc
+-> -> 9 `i `uc
+-> -> 1 `i `uc
+-> -> 7 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 6 `i `uc
+-> -> 3 `i `uc
+..
+:U ..
+"21
+-> -> 5 `i `uc
+-> -> 7 `i `uc
+-> -> 1 `i `uc
+-> -> 9 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+-> -> 3 `i `uc
+..
+:U ..
+"22
+-> -> 5 `i `uc
+-> -> 9 `i `uc
+-> -> 1 `i `uc
+-> -> 7 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+-> -> 3 `i `uc
+..
+:U ..
+"23
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 9 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 8 `i `uc
+-> -> 7 `i `uc
+-> -> 4 `i `uc
+-> -> 6 `i `uc
+..
+:U ..
+"24
+-> -> 5 `i `uc
+-> -> 9 `i `uc
+-> -> 1 `i `uc
+-> -> 7 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 6 `i `uc
+..
+:U ..
+"25
+-> -> 5 `i `uc
+-> -> 9 `i `uc
+-> -> 3 `i `uc
+-> -> 7 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 1 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+..
+:U ..
+"26
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 7 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 8 `i `uc
+-> -> 9 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+..
+:U ..
+"27
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 9 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 8 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+-> -> 7 `i `uc
+..
+:U ..
+"28
+-> -> 5 `i `uc
+-> -> 7 `i `uc
+-> -> 3 `i `uc
+-> -> 9 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+-> -> 1 `i `uc
+..
+:U ..
+"29
+-> -> 5 `i `uc
+-> -> 7 `i `uc
+-> -> 3 `i `uc
+-> -> 9 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 1 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+..
+:U ..
+"30
+-> -> 5 `i `uc
+-> -> 1 `i `uc
+-> -> 7 `i `uc
+-> -> 3 `i `uc
+-> -> 2 `i `uc
+-> -> 8 `i `uc
+-> -> 9 `i `uc
+-> -> 4 `i `uc
+-> -> 6 `i `uc
+..
+:U ..
+"31
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 7 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 8 `i `uc
+-> -> 9 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+..
+:U ..
+"32
+-> -> 5 `i `uc
+-> -> 9 `i `uc
+-> -> 3 `i `uc
+-> -> 7 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+-> -> 1 `i `uc
+..
+:U ..
+"33
+-> -> 5 `i `uc
+-> -> 1 `i `uc
+-> -> 9 `i `uc
+-> -> 3 `i `uc
+-> -> 2 `i `uc
+-> -> 8 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+-> -> 7 `i `uc
+..
+..
 ]
-[; ;main.c: 95: const unsigned char positions[9] = {5,9,3,7,8,2,6,4,1};
-[; ;main.c: 97: while(1)
-"97
-[e :U 434 ]
-[; ;main.c: 98: {
-"98
+[; ;main.c: 18: const unsigned char positions[15][9] = {
+[; ;main.c: 19: {5,9,3,7,8,2,6,4,1},
+[; ;main.c: 20: {5,9,1,7,8,2,4,6,3},
+[; ;main.c: 21: {5,7,1,9,8,2,6,4,3},
+[; ;main.c: 22: {5,9,1,7,8,2,6,4,3},
+[; ;main.c: 23: {5,3,9,1,2,8,7,4,6},
+[; ;main.c: 24: {5,9,1,7,8,2,3,4,6},
+[; ;main.c: 25: {5,9,3,7,8,2,1,6,4},
+[; ;main.c: 26: {5,3,7,1,2,8,9,6,4},
+[; ;main.c: 27: {5,3,9,1,2,8,6,4,7},
+[; ;main.c: 28: {5,7,3,9,8,2,6,4,1},
+[; ;main.c: 29: {5,7,3,9,8,2,1,6,4},
+[; ;main.c: 30: {5,1,7,3,2,8,9,4,6},
+[; ;main.c: 31: {5,3,7,1,2,8,9,6,4},
+[; ;main.c: 32: {5,9,3,7,8,2,6,4,1},
+[; ;main.c: 33: {5,1,9,3,2,8,6,4,7}
+[; ;main.c: 34: };
+[v $root$_isr `(v ~T0 @X0 0 e ]
+[v F3366 `(v ~T0 @X0 1 tf ]
+"36
+[v _isr `IF3366 ~T0 @X0 1 e ]
+"37
 {
-[; ;main.c: 101: if (sixtyHertz)
-"101
-[e $ ! != -> _sixtyHertz `i -> -> -> 0 `i `Vuc `i 436  ]
-[; ;main.c: 102: {
-"102
+[; ;main.c: 36: void interrupt isr(void)
+[; ;main.c: 37: {
+[e :U _isr ]
+[f ]
+[; ;main.c: 39: if(T0IE && T0IF)
+"39
+[e $ ! && _T0IE _T0IF 421  ]
+[; ;main.c: 40: {
+"40
 {
-[; ;main.c: 103: sixtyHertz = 0;
-"103
-[e = _sixtyHertz -> -> 0 `i `uc ]
-[; ;main.c: 105: if (accumulatorTwo >= updateRate)
-"105
-[e $ ! >= -> _accumulatorTwo `i -> _updateRate `i 437  ]
-[; ;main.c: 106: {
-"106
+[; ;main.c: 41: T0IF = 0;
+"41
+[e = _T0IF -> -> 0 `i `b ]
+[; ;main.c: 42: oneTwentyHertz = 1;
+"42
+[e = _oneTwentyHertz -> -> 1 `i `uc ]
+[; ;main.c: 45: if (oneTwentyHertz)
+"45
+[e $ ! != -> _oneTwentyHertz `i -> -> -> 0 `i `Vuc `i 422  ]
+[; ;main.c: 46: {
+"46
 {
-[; ;main.c: 107: accumulatorTwo = 0;
-"107
-[e = _accumulatorTwo -> -> 0 `i `uc ]
-[; ;main.c: 108: (numShown >= 9) ? numShown = 0 : numShown++;
-"108
-[e ? >= -> _numShown `i -> 9 `i : -> = _numShown -> -> 0 `i `c `i -> ++ _numShown -> -> 1 `i `c `i ]
-"109
+[; ;main.c: 47: oneTwentyHertz = 0;
+"47
+[e = _oneTwentyHertz -> -> 0 `i `uc ]
+[; ;main.c: 49: if (accumulator >= 1)
+"49
+[e $ ! >= -> _accumulator `i -> 1 `i 423  ]
+[; ;main.c: 50: {
+"50
+{
+[; ;main.c: 51: accumulator = 0;
+"51
+[e = _accumulator -> -> 0 `i `uc ]
+[; ;main.c: 52: sixtyHertz = 1;
+"52
+[e = _sixtyHertz -> -> 1 `i `uc ]
+"53
 }
-[; ;main.c: 109: }
-[e $U 438  ]
-"110
-[e :U 437 ]
-[; ;main.c: 110: else accumulatorTwo++;
-[e ++ _accumulatorTwo -> -> 1 `i `uc ]
-[e :U 438 ]
+[; ;main.c: 53: }
+[e $U 424  ]
+"54
+[e :U 423 ]
+[; ;main.c: 54: else
+[; ;main.c: 55: accumulator++;
+"55
+[e ++ _accumulator -> -> 1 `i `uc ]
+[e :U 424 ]
+"56
+}
+[e :U 422 ]
+"57
+}
+[e :U 421 ]
+[; ;main.c: 56: }
+[; ;main.c: 57: }
+[; ;main.c: 58: }
+"58
+[e :UE 420 ]
+}
+"61
+[v _displayLED `(v ~T0 @X0 1 ef3`uc`uc`uc ]
+"62
+{
+[; ;main.c: 61: void displayLED(unsigned char pos, unsigned char colour, unsigned char enable)
+[; ;main.c: 62: {
+[e :U _displayLED ]
+"61
+[v _pos `uc ~T0 @X0 1 r1 ]
+[v _colour `uc ~T0 @X0 1 r2 ]
+[v _enable `uc ~T0 @X0 1 r3 ]
+"62
+[f ]
+"67
+[v F3371 `Cuc ~T0 @X0 -> 10 `i s ledAnode ]
+[i F3371
+:U ..
+-> -> 1 `i `uc
+-> -> 4 `i `uc
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+..
+]
+"68
+[v F3372 `Cuc ~T0 @X0 -> 10 `i s ledCathode ]
+[i F3372
+:U ..
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 4 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+..
+]
+[; ;main.c: 67: const unsigned char ledAnode[10] = {1,4,2,5,2,5,4,5,4};
+[; ;main.c: 68: const unsigned char ledCathode[10] = {0,2,1,2,0,4,1,1,0};
+[; ;main.c: 70: if (enable)
+"70
+[e $ ! != -> _enable `i -> -> -> 0 `i `uc `i 426  ]
+[; ;main.c: 71: {
+"71
+{
+[; ;main.c: 72: if (colour == 0)
+"72
+[e $ ! == -> _colour `i -> 0 `i 427  ]
+[; ;main.c: 73: {
+"73
+{
+[; ;main.c: 74: TRISA = 0xFF & ~(1<<ledAnode[pos-1]|1<<ledCathode[pos-1]);
+"74
+[e = _TRISA -> & -> 255 `i ~ | << -> 1 `i *U + &U F3371 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3371 `ui `ux << -> 1 `i *U + &U F3372 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3372 `ui `ux `uc ]
+[; ;main.c: 75: PORTA = 0 | (1<<ledAnode[pos-1]);
+"75
+[e = _PORTA -> | -> 0 `i << -> 1 `i *U + &U F3371 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3371 `ui `ux `uc ]
+"76
+}
+[; ;main.c: 76: }
+[e $U 428  ]
+"77
+[e :U 427 ]
+[; ;main.c: 77: else if (colour == 1)
+[e $ ! == -> _colour `i -> 1 `i 429  ]
+[; ;main.c: 78: {
+"78
+{
+[; ;main.c: 79: TRISA = 0xFF & ~(1<<ledAnode[pos-1]|1<<ledCathode[pos-1]);
+"79
+[e = _TRISA -> & -> 255 `i ~ | << -> 1 `i *U + &U F3371 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3371 `ui `ux << -> 1 `i *U + &U F3372 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3372 `ui `ux `uc ]
+[; ;main.c: 80: PORTA = 0 | (1<<ledCathode[pos-1]);
+"80
+[e = _PORTA -> | -> 0 `i << -> 1 `i *U + &U F3372 * -> -> - -> _pos `i -> 1 `i `ui `ux -> -> # *U &U F3372 `ui `ux `uc ]
+"81
+}
+[; ;main.c: 81: }
+[e $U 430  ]
+"82
+[e :U 429 ]
+[; ;main.c: 82: else
+[; ;main.c: 83: {
+"83
+{
+[; ;main.c: 84: TRISA = 0;
+"84
+[e = _TRISA -> -> 0 `i `uc ]
+[; ;main.c: 85: PORTA= 0;
+"85
+[e = _PORTA -> -> 0 `i `uc ]
+"86
+}
+[e :U 430 ]
+[e :U 428 ]
+"87
+}
+[; ;main.c: 86: }
+[; ;main.c: 87: }
+[e $U 431  ]
+"88
+[e :U 426 ]
+[; ;main.c: 88: else
+[; ;main.c: 89: {
+"89
+{
+[; ;main.c: 90: TRISA = 0;
+"90
+[e = _TRISA -> -> 0 `i `uc ]
+[; ;main.c: 91: PORTA= 0;
+"91
+[e = _PORTA -> -> 0 `i `uc ]
+"92
+}
+[e :U 431 ]
+[; ;main.c: 92: }
+[; ;main.c: 94: }
+"94
+[e :UE 425 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"96
+[v _main `(v ~T0 @X0 1 ef ]
+"97
+{
+[; ;main.c: 96: void main()
+[; ;main.c: 97: {
+[e :U _main ]
+[f ]
+[; ;main.c: 100: OSCCON = 0b11110000;
+"100
+[e = _OSCCON -> -> 240 `i `uc ]
+[; ;main.c: 101: ANSELA = 0;
+"101
+[e = _ANSELA -> -> 0 `i `uc ]
+[; ;main.c: 102: ADCON0 = 0;
+"102
+[e = _ADCON0 -> -> 0 `i `uc ]
+[; ;main.c: 103: TRISA = (1<<3)|(1<<4);
+"103
+[e = _TRISA -> | << -> 1 `i -> 3 `i << -> 1 `i -> 4 `i `uc ]
+[; ;main.c: 104: PORTA = 0;
+"104
+[e = _PORTA -> -> 0 `i `uc ]
+[; ;main.c: 105: WPUA = 0;
+"105
+[e = _WPUA -> -> 0 `i `uc ]
+[; ;main.c: 108: OPTION_REG = 0b10000111;
+"108
+[e = _OPTION_REG -> -> 135 `i `uc ]
+[; ;main.c: 109: INTCON = 0b10100000;
+"109
+[e = _INTCON -> -> 160 `i `uc ]
 "111
+[v _colour `uc ~T0 @X0 1 a ]
+[; ;main.c: 111: unsigned char colour = 0;
+[e = _colour -> -> 0 `i `uc ]
+"112
+[v _enable `uc ~T0 @X0 1 a ]
+[; ;main.c: 112: unsigned char enable = 1;
+[e = _enable -> -> 1 `i `uc ]
+"113
+[v _statesShown `c ~T0 @X0 1 a ]
+[; ;main.c: 113: signed char statesShown = -1;
+[e = _statesShown -> -U -> 1 `i `c ]
+"114
+[v _accumulatorTwo `uc ~T0 @X0 1 a ]
+[; ;main.c: 114: unsigned char accumulatorTwo = 0;
+[e = _accumulatorTwo -> -> 0 `i `uc ]
+"115
+[v _updateRate `uc ~T0 @X0 1 a ]
+[; ;main.c: 115: unsigned char updateRate = 60;
+[e = _updateRate -> -> 60 `i `uc ]
+"116
+[v _gameDisplayed `uc ~T0 @X0 1 a ]
+[; ;main.c: 116: unsigned char gameDisplayed = 0;
+[e = _gameDisplayed -> -> 0 `i `uc ]
+"117
+[v _countUp `uc ~T0 @X0 1 a ]
+[; ;main.c: 117: unsigned char countUp = 1;
+[e = _countUp -> -> 1 `i `uc ]
+"118
+[v _nextGame `uc ~T0 @X0 1 a ]
+[; ;main.c: 118: unsigned char nextGame = 0;
+[e = _nextGame -> -> 0 `i `uc ]
+[; ;main.c: 121: while(1)
+"121
+[e :U 434 ]
+[; ;main.c: 122: {
+"122
+{
+[; ;main.c: 124: if (nextGame)
+"124
+[e $ ! != -> _nextGame `i -> -> -> 0 `i `uc `i 436  ]
+[; ;main.c: 125: {
+"125
+{
+[; ;main.c: 126: nextGame = 0;
+"126
+[e = _nextGame -> -> 0 `i `uc ]
+[; ;main.c: 127: if (gameDisplayed == 0) countUp = 1;
+"127
+[e $ ! == -> _gameDisplayed `i -> 0 `i 437  ]
+[e = _countUp -> -> 1 `i `uc ]
+[e :U 437 ]
+[; ;main.c: 128: if (gameDisplayed == 15-1) countUp = 0;
+"128
+[e $ ! == -> _gameDisplayed `i - -> 15 `i -> 1 `i 438  ]
+[e = _countUp -> -> 0 `i `uc ]
+[e :U 438 ]
+[; ;main.c: 130: countUp ? gameDisplayed++ : gameDisplayed--;
+"130
+[e ? != -> _countUp `i -> -> -> 0 `i `uc `i : -> ++ _gameDisplayed -> -> 1 `i `uc `i -> -- _gameDisplayed -> -> 1 `i `uc `i ]
+"131
 }
 [e :U 436 ]
-[; ;main.c: 111: }
-[; ;main.c: 113: for (signed char pos = 0; pos <= numShown; pos++)
-"113
+[; ;main.c: 131: }
+[; ;main.c: 134: if (sixtyHertz)
+"134
+[e $ ! != -> _sixtyHertz `i -> -> -> 0 `i `Vuc `i 439  ]
+[; ;main.c: 135: {
+"135
+{
+[; ;main.c: 136: sixtyHertz = 0;
+"136
+[e = _sixtyHertz -> -> 0 `i `uc ]
+[; ;main.c: 138: if (accumulatorTwo >= (updateRate - (5 * gameDisplayed - 13)))
+"138
+[e $ ! >= -> _accumulatorTwo `i - -> _updateRate `i - * -> 5 `i -> _gameDisplayed `i -> 13 `i 440  ]
+[; ;main.c: 139: {
+"139
+{
+[; ;main.c: 140: accumulatorTwo = 0;
+"140
+[e = _accumulatorTwo -> -> 0 `i `uc ]
+[; ;main.c: 142: if (statesShown >= 9)
+"142
+[e $ ! >= -> _statesShown `i -> 9 `i 441  ]
+[; ;main.c: 143: {
+"143
+{
+[; ;main.c: 144: nextGame = 1;
+"144
+[e = _nextGame -> -> 1 `i `uc ]
+[; ;main.c: 145: _delay((unsigned long)((300)*(32000000/4000.0)));
+"145
+[e ( __delay (1 -> * -> -> 300 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+"146
+}
+[e :U 441 ]
+[; ;main.c: 146: }
+[; ;main.c: 148: (statesShown >= 9) ? statesShown = 0 : statesShown++;
+"148
+[e ? >= -> _statesShown `i -> 9 `i : -> = _statesShown -> -> 0 `i `c `i -> ++ _statesShown -> -> 1 `i `c `i ]
+"150
+}
+[; ;main.c: 150: }
+[e $U 442  ]
+"151
+[e :U 440 ]
+[; ;main.c: 151: else accumulatorTwo++;
+[e ++ _accumulatorTwo -> -> 1 `i `uc ]
+[e :U 442 ]
+"152
+}
+[e :U 439 ]
+[; ;main.c: 152: }
+[; ;main.c: 155: for (signed char pos = 0; pos <= statesShown; pos++)
+"155
 {
 [v _pos `c ~T0 @X0 1 a ]
 [e = _pos -> -> 0 `i `c ]
-[e $U 442  ]
-"114
-[e :U 439 ]
-[; ;main.c: 114: {
+[e $U 446  ]
+"156
+[e :U 443 ]
+[; ;main.c: 156: {
 {
-[; ;main.c: 115: (pos % 2 == 0) ? colour = 0 : colour = 1;
-"115
+[; ;main.c: 157: (pos % 2 == 0) ? colour = 0 : colour = 1;
+"157
 [e ? == % -> _pos `i -> 2 `i -> 0 `i : -> = _colour -> -> 0 `i `uc `i -> = _colour -> -> 1 `i `uc `i ]
-[; ;main.c: 116: (numShown == 9) ? enable = 0 : enable = 1;
-"116
-[e ? == -> _numShown `i -> 9 `i : -> = _enable -> -> 0 `i `uc `i -> = _enable -> -> 1 `i `uc `i ]
-[; ;main.c: 117: displayLED(positions[pos], colour, enable);
-"117
-[e ( _displayLED (3 , , *U + &U F3377 * -> -> _pos `uc `ux -> -> # *U &U F3377 `ui `ux _colour _enable ]
-[; ;main.c: 118: _delay((unsigned long)((500)*(32000000/4000000.0)));
-"118
+[; ;main.c: 158: (statesShown == 9) ? enable = 0 : enable = 1;
+"158
+[e ? == -> _statesShown `i -> 9 `i : -> = _enable -> -> 0 `i `uc `i -> = _enable -> -> 1 `i `uc `i ]
+[; ;main.c: 159: displayLED(positions[gameDisplayed][pos], colour, enable);
+"159
+[e ( _displayLED (3 , , *U + &U *U + &U _positions * -> _gameDisplayed `ux -> * -> # *U &U *U &U _positions `ui -> -> 9 `i `ui `ux * -> -> _pos `uc `ux -> -> # *U &U *U + &U _positions * -> _gameDisplayed `ux -> * -> # *U &U *U &U _positions `ui -> -> 9 `i `ui `ux `ui `ux _colour _enable ]
+[; ;main.c: 160: _delay((unsigned long)((500)*(32000000/4000000.0)));
+"160
 [e ( __delay (1 -> * -> -> 500 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
-"119
+"161
 }
-"113
+"155
 [e ++ _pos -> -> 1 `i `c ]
-[e :U 442 ]
-[e $ <= -> _pos `i -> _numShown `i 439  ]
-[e :U 440 ]
-"119
+[e :U 446 ]
+[e $ <= -> _pos `i -> _statesShown `i 443  ]
+[e :U 444 ]
+"161
 }
-"121
+"163
 }
 [e :U 433 ]
-"97
+"121
 [e $U 434  ]
 [e :U 435 ]
-[; ;main.c: 119: }
-[; ;main.c: 121: }
-[; ;main.c: 122: }
-"122
+[; ;main.c: 161: }
+[; ;main.c: 163: }
+[; ;main.c: 164: }
+"164
 [e :UE 432 ]
 }

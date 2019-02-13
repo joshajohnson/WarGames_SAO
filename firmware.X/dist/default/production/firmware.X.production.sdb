@@ -7,11 +7,13 @@
 [v ___ftpack __ftpack `(f  1 e 3 0 ]
 "86 E:\XC8\sources\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 3 0 ]
-"15 C:\Users\jonno\Dropbox\Projects\WarGames_SAO\firmware.X\main.c
+"15 E:\XC8\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"36 C:\Users\jonno\Dropbox\Projects\WarGames_SAO\firmware.X\main.c
 [v _isr isr `II(v  1 e 1 0 ]
-"39
+"61
 [v _displayLED displayLED `(v  1 e 1 0 ]
-"74
+"96
 [v _main main `(v  1 e 1 0 ]
 "349 E:\XC8\include\pic12f1571.h
 [v _INTCON INTCON `VEuc  1 e 1 @11 ]
@@ -33,48 +35,64 @@
 [v _T0IE T0IE `VEb  1 e 0 @93 ]
 "8999
 [v _T0IF T0IF `VEb  1 e 0 @90 ]
-"11 C:\Users\jonno\Dropbox\Projects\WarGames_SAO\firmware.X\main.c
+"13 C:\Users\jonno\Dropbox\Projects\WarGames_SAO\firmware.X\main.c
 [v _oneTwentyHertz oneTwentyHertz `VEuc  1 e 1 0 ]
-"12
+"14
 [v _sixtyHertz sixtyHertz `VEuc  1 e 1 0 ]
-"13
+"15
 [v _accumulator accumulator `VEuc  1 e 1 0 ]
-"74
+"18
+[v _positions positions `DC[15][9]uc  1 e 135 0 ]
+"96
 [v _main main `(v  1 e 1 0 ]
 {
+"155
+[v main@pos pos `c  1 a 1 21 ]
+"116
+[v main@gameDisplayed gameDisplayed `uc  1 a 1 23 ]
 "113
-[v main@pos pos `c  1 a 1 7 ]
-"91
-[v main@numShown numShown `c  1 a 1 8 ]
-"92
-[v main@accumulatorTwo accumulatorTwo `uc  1 a 1 6 ]
-"90
-[v main@enable enable `uc  1 a 1 5 ]
-"89
-[v main@colour colour `uc  1 a 1 4 ]
-"93
-[v main@updateRate updateRate `uc  1 a 1 3 ]
-"95
-[v main@positions positions `DC[9]uc  1 s 9 positions ]
-"122
+[v main@statesShown statesShown `c  1 a 1 22 ]
+"118
+[v main@nextGame nextGame `uc  1 a 1 20 ]
+"117
+[v main@countUp countUp `uc  1 a 1 19 ]
+"114
+[v main@accumulatorTwo accumulatorTwo `uc  1 a 1 18 ]
+"112
+[v main@enable enable `uc  1 a 1 17 ]
+"111
+[v main@colour colour `uc  1 a 1 16 ]
+"115
+[v main@updateRate updateRate `uc  1 a 1 15 ]
+"164
 } 0
-"39
+"61
 [v _displayLED displayLED `(v  1 e 1 0 ]
 {
 [v displayLED@pos pos `uc  1 a 1 wreg ]
 [v displayLED@pos pos `uc  1 a 1 wreg ]
-[v displayLED@colour colour `uc  1 p 1 2 ]
-[v displayLED@enable enable `uc  1 p 1 3 ]
-"45
+[v displayLED@colour colour `uc  1 p 1 8 ]
+[v displayLED@enable enable `uc  1 p 1 9 ]
+"67
 [v displayLED@ledAnode ledAnode `DC[10]uc  1 s 10 ledAnode ]
-"46
+"68
 [v displayLED@ledCathode ledCathode `DC[10]uc  1 s 10 ledCathode ]
-"48
-[v displayLED@pos pos `uc  1 a 1 0 ]
-"72
+"70
+[v displayLED@pos pos `uc  1 a 1 6 ]
+"94
 } 0
+"15 E:\XC8\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 6 ]
 "15
+[v ___wmul@multiplier multiplier `ui  1 p 2 2 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 4 ]
+"53
+} 0
+"36 C:\Users\jonno\Dropbox\Projects\WarGames_SAO\firmware.X\main.c
 [v _isr isr `II(v  1 e 1 0 ]
 {
-"36
+"58
 } 0

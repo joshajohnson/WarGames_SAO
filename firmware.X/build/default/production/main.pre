@@ -4339,11 +4339,29 @@ extern __bank0 __bit __timeout;
 #pragma config LVP = OFF
 #pragma config FOSC = INTOSC
 
-
-
+# 13
 volatile unsigned char oneTwentyHertz = 0;
 volatile unsigned char sixtyHertz = 0;
 volatile unsigned char accumulator = 0;
+
+
+const unsigned char positions[15][9] = {
+{5,9,3,7,8,2,6,4,1},
+{5,9,1,7,8,2,4,6,3},
+{5,7,1,9,8,2,6,4,3},
+{5,9,1,7,8,2,6,4,3},
+{5,3,9,1,2,8,7,4,6},
+{5,9,1,7,8,2,3,4,6},
+{5,9,3,7,8,2,1,6,4},
+{5,3,7,1,2,8,9,6,4},
+{5,3,9,1,2,8,6,4,7},
+{5,7,3,9,8,2,6,4,1},
+{5,7,3,9,8,2,1,6,4},
+{5,1,7,3,2,8,9,4,6},
+{5,3,7,1,2,8,9,6,4},
+{5,9,3,7,8,2,6,4,1},
+{5,1,9,3,2,8,6,4,7}
+};
 
 void interrupt isr(void)
 {
@@ -4357,13 +4375,14 @@ oneTwentyHertz = 1;
 if (oneTwentyHertz)
 {
 oneTwentyHertz = 0;
+
 if (accumulator >= 1)
 {
 accumulator = 0;
 sixtyHertz = 1;
 }
-else accumulator++;
-
+else
+accumulator++;
 }
 }
 }
@@ -4421,33 +4440,53 @@ INTCON = 0b10100000;
 
 unsigned char colour = 0;
 unsigned char enable = 1;
-signed char numShown = -1;
+signed char statesShown = -1;
 unsigned char accumulatorTwo = 0;
 unsigned char updateRate = 60;
+unsigned char gameDisplayed = 0;
+unsigned char countUp = 1;
+unsigned char nextGame = 0;
 
-const unsigned char positions[9] = {5,9,3,7,8,2,6,4,1};
 
 while(1)
 {
+
+if (nextGame)
+{
+nextGame = 0;
+if (gameDisplayed == 0) countUp = 1;
+if (gameDisplayed == 15-1) countUp = 0;
+
+countUp ? gameDisplayed++ : gameDisplayed--;
+}
 
 
 if (sixtyHertz)
 {
 sixtyHertz = 0;
 
-if (accumulatorTwo >= updateRate)
+if (accumulatorTwo >= (updateRate - (5 * gameDisplayed - 13)))
 {
 accumulatorTwo = 0;
-(numShown >= 9) ? numShown = 0 : numShown++;
+
+if (statesShown >= 9)
+{
+nextGame = 1;
+_delay((unsigned long)((300)*(32000000/4000.0)));
+}
+
+(statesShown >= 9) ? statesShown = 0 : statesShown++;
+
 }
 else accumulatorTwo++;
 }
 
-for (signed char pos = 0; pos <= numShown; pos++)
+
+for (signed char pos = 0; pos <= statesShown; pos++)
 {
 (pos % 2 == 0) ? colour = 0 : colour = 1;
-(numShown == 9) ? enable = 0 : enable = 1;
-displayLED(positions[pos], colour, enable);
+(statesShown == 9) ? enable = 0 : enable = 1;
+displayLED(positions[gameDisplayed][pos], colour, enable);
 _delay((unsigned long)((500)*(32000000/4000000.0)));
 }
 
