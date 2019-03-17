@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V1.45 build -152302408 
-                                                                                               Wed Feb 13 20:32:42 2019
+                                                                                               Sat Mar 02 12:43:55 2019
 
 Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160504
      1                           	processor	12F1571
@@ -224,174 +224,174 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
    210  0FEF                     	;# 
    211                           
    212                           	psect	stringtext1
-   213  01B2                     __pstringtext1:	
-   214  01B2                     _positions:	
-   215  01B2  3405               	retlw	5
-   216  01B3  3409               	retlw	9
-   217  01B4  3403               	retlw	3
-   218  01B5  3407               	retlw	7
-   219  01B6  3408               	retlw	8
-   220  01B7  3402               	retlw	2
-   221  01B8  3406               	retlw	6
-   222  01B9  3404               	retlw	4
-   223  01BA  3401               	retlw	1
-   224  01BB  3405               	retlw	5
-   225  01BC  3409               	retlw	9
-   226  01BD  3401               	retlw	1
-   227  01BE  3407               	retlw	7
-   228  01BF  3408               	retlw	8
-   229  01C0  3402               	retlw	2
-   230  01C1  3404               	retlw	4
-   231  01C2  3406               	retlw	6
-   232  01C3  3403               	retlw	3
-   233  01C4  3405               	retlw	5
-   234  01C5  3407               	retlw	7
-   235  01C6  3401               	retlw	1
-   236  01C7  3409               	retlw	9
-   237  01C8  3408               	retlw	8
-   238  01C9  3402               	retlw	2
-   239  01CA  3406               	retlw	6
-   240  01CB  3404               	retlw	4
-   241  01CC  3403               	retlw	3
-   242  01CD  3405               	retlw	5
-   243  01CE  3409               	retlw	9
-   244  01CF  3401               	retlw	1
-   245  01D0  3407               	retlw	7
-   246  01D1  3408               	retlw	8
-   247  01D2  3402               	retlw	2
-   248  01D3  3406               	retlw	6
-   249  01D4  3404               	retlw	4
-   250  01D5  3403               	retlw	3
-   251  01D6  3405               	retlw	5
-   252  01D7  3403               	retlw	3
-   253  01D8  3409               	retlw	9
-   254  01D9  3401               	retlw	1
-   255  01DA  3402               	retlw	2
-   256  01DB  3408               	retlw	8
-   257  01DC  3407               	retlw	7
-   258  01DD  3404               	retlw	4
-   259  01DE  3406               	retlw	6
-   260  01DF  3405               	retlw	5
-   261  01E0  3409               	retlw	9
-   262  01E1  3401               	retlw	1
-   263  01E2  3407               	retlw	7
-   264  01E3  3408               	retlw	8
-   265  01E4  3402               	retlw	2
-   266  01E5  3403               	retlw	3
-   267  01E6  3404               	retlw	4
-   268  01E7  3406               	retlw	6
-   269  01E8  3405               	retlw	5
-   270  01E9  3409               	retlw	9
-   271  01EA  3403               	retlw	3
-   272  01EB  3407               	retlw	7
-   273  01EC  3408               	retlw	8
-   274  01ED  3402               	retlw	2
-   275  01EE  3401               	retlw	1
-   276  01EF  3406               	retlw	6
-   277  01F0  3404               	retlw	4
-   278  01F1  3405               	retlw	5
-   279  01F2  3403               	retlw	3
-   280  01F3  3407               	retlw	7
-   281  01F4  3401               	retlw	1
-   282  01F5  3402               	retlw	2
-   283  01F6  3408               	retlw	8
-   284  01F7  3409               	retlw	9
-   285  01F8  3406               	retlw	6
-   286  01F9  3404               	retlw	4
-   287  01FA  3405               	retlw	5
-   288  01FB  3403               	retlw	3
-   289  01FC  3409               	retlw	9
-   290  01FD  3401               	retlw	1
-   291  01FE  3402               	retlw	2
-   292  01FF  3408               	retlw	8
-   293  0200  3406               	retlw	6
-   294  0201  3404               	retlw	4
-   295  0202  3407               	retlw	7
-   296  0203  3405               	retlw	5
-   297  0204  3407               	retlw	7
-   298  0205  3403               	retlw	3
-   299  0206  3409               	retlw	9
-   300  0207  3408               	retlw	8
-   301  0208  3402               	retlw	2
-   302  0209  3406               	retlw	6
-   303  020A  3404               	retlw	4
-   304  020B  3401               	retlw	1
-   305  020C  3405               	retlw	5
-   306  020D  3407               	retlw	7
-   307  020E  3403               	retlw	3
-   308  020F  3409               	retlw	9
-   309  0210  3408               	retlw	8
-   310  0211  3402               	retlw	2
-   311  0212  3401               	retlw	1
-   312  0213  3406               	retlw	6
-   313  0214  3404               	retlw	4
-   314  0215  3405               	retlw	5
-   315  0216  3401               	retlw	1
-   316  0217  3407               	retlw	7
-   317  0218  3403               	retlw	3
-   318  0219  3402               	retlw	2
-   319  021A  3408               	retlw	8
-   320  021B  3409               	retlw	9
-   321  021C  3404               	retlw	4
-   322  021D  3406               	retlw	6
-   323  021E  3405               	retlw	5
-   324  021F  3403               	retlw	3
-   325  0220  3407               	retlw	7
-   326  0221  3401               	retlw	1
-   327  0222  3402               	retlw	2
-   328  0223  3408               	retlw	8
-   329  0224  3409               	retlw	9
-   330  0225  3406               	retlw	6
-   331  0226  3404               	retlw	4
-   332  0227  3405               	retlw	5
-   333  0228  3409               	retlw	9
-   334  0229  3403               	retlw	3
-   335  022A  3407               	retlw	7
-   336  022B  3408               	retlw	8
-   337  022C  3402               	retlw	2
-   338  022D  3406               	retlw	6
-   339  022E  3404               	retlw	4
-   340  022F  3401               	retlw	1
-   341  0230  3405               	retlw	5
-   342  0231  3401               	retlw	1
-   343  0232  3409               	retlw	9
-   344  0233  3403               	retlw	3
-   345  0234  3402               	retlw	2
-   346  0235  3408               	retlw	8
-   347  0236  3406               	retlw	6
-   348  0237  3404               	retlw	4
-   349  0238  3407               	retlw	7
-   350  0239                     __end_of_positions:	
+   213  01E6                     __pstringtext1:	
+   214  01E6                     _positions:	
+   215  01E6  3405               	retlw	5
+   216  01E7  3409               	retlw	9
+   217  01E8  3403               	retlw	3
+   218  01E9  3407               	retlw	7
+   219  01EA  3408               	retlw	8
+   220  01EB  3402               	retlw	2
+   221  01EC  3406               	retlw	6
+   222  01ED  3404               	retlw	4
+   223  01EE  3401               	retlw	1
+   224  01EF  3405               	retlw	5
+   225  01F0  3409               	retlw	9
+   226  01F1  3401               	retlw	1
+   227  01F2  3407               	retlw	7
+   228  01F3  3408               	retlw	8
+   229  01F4  3402               	retlw	2
+   230  01F5  3404               	retlw	4
+   231  01F6  3406               	retlw	6
+   232  01F7  3403               	retlw	3
+   233  01F8  3405               	retlw	5
+   234  01F9  3407               	retlw	7
+   235  01FA  3401               	retlw	1
+   236  01FB  3409               	retlw	9
+   237  01FC  3408               	retlw	8
+   238  01FD  3402               	retlw	2
+   239  01FE  3406               	retlw	6
+   240  01FF  3404               	retlw	4
+   241  0200  3403               	retlw	3
+   242  0201  3405               	retlw	5
+   243  0202  3409               	retlw	9
+   244  0203  3401               	retlw	1
+   245  0204  3407               	retlw	7
+   246  0205  3408               	retlw	8
+   247  0206  3402               	retlw	2
+   248  0207  3406               	retlw	6
+   249  0208  3404               	retlw	4
+   250  0209  3403               	retlw	3
+   251  020A  3405               	retlw	5
+   252  020B  3403               	retlw	3
+   253  020C  3409               	retlw	9
+   254  020D  3401               	retlw	1
+   255  020E  3402               	retlw	2
+   256  020F  3408               	retlw	8
+   257  0210  3407               	retlw	7
+   258  0211  3404               	retlw	4
+   259  0212  3406               	retlw	6
+   260  0213  3405               	retlw	5
+   261  0214  3409               	retlw	9
+   262  0215  3401               	retlw	1
+   263  0216  3407               	retlw	7
+   264  0217  3408               	retlw	8
+   265  0218  3402               	retlw	2
+   266  0219  3403               	retlw	3
+   267  021A  3404               	retlw	4
+   268  021B  3406               	retlw	6
+   269  021C  3405               	retlw	5
+   270  021D  3409               	retlw	9
+   271  021E  3403               	retlw	3
+   272  021F  3407               	retlw	7
+   273  0220  3408               	retlw	8
+   274  0221  3402               	retlw	2
+   275  0222  3401               	retlw	1
+   276  0223  3406               	retlw	6
+   277  0224  3404               	retlw	4
+   278  0225  3405               	retlw	5
+   279  0226  3403               	retlw	3
+   280  0227  3407               	retlw	7
+   281  0228  3401               	retlw	1
+   282  0229  3402               	retlw	2
+   283  022A  3408               	retlw	8
+   284  022B  3409               	retlw	9
+   285  022C  3406               	retlw	6
+   286  022D  3404               	retlw	4
+   287  022E  3405               	retlw	5
+   288  022F  3403               	retlw	3
+   289  0230  3409               	retlw	9
+   290  0231  3401               	retlw	1
+   291  0232  3402               	retlw	2
+   292  0233  3408               	retlw	8
+   293  0234  3406               	retlw	6
+   294  0235  3404               	retlw	4
+   295  0236  3407               	retlw	7
+   296  0237  3405               	retlw	5
+   297  0238  3407               	retlw	7
+   298  0239  3403               	retlw	3
+   299  023A  3409               	retlw	9
+   300  023B  3408               	retlw	8
+   301  023C  3402               	retlw	2
+   302  023D  3406               	retlw	6
+   303  023E  3404               	retlw	4
+   304  023F  3401               	retlw	1
+   305  0240  3405               	retlw	5
+   306  0241  3407               	retlw	7
+   307  0242  3403               	retlw	3
+   308  0243  3409               	retlw	9
+   309  0244  3408               	retlw	8
+   310  0245  3402               	retlw	2
+   311  0246  3401               	retlw	1
+   312  0247  3406               	retlw	6
+   313  0248  3404               	retlw	4
+   314  0249  3405               	retlw	5
+   315  024A  3401               	retlw	1
+   316  024B  3407               	retlw	7
+   317  024C  3403               	retlw	3
+   318  024D  3402               	retlw	2
+   319  024E  3408               	retlw	8
+   320  024F  3409               	retlw	9
+   321  0250  3404               	retlw	4
+   322  0251  3406               	retlw	6
+   323  0252  3405               	retlw	5
+   324  0253  3403               	retlw	3
+   325  0254  3407               	retlw	7
+   326  0255  3401               	retlw	1
+   327  0256  3402               	retlw	2
+   328  0257  3408               	retlw	8
+   329  0258  3409               	retlw	9
+   330  0259  3406               	retlw	6
+   331  025A  3404               	retlw	4
+   332  025B  3405               	retlw	5
+   333  025C  3409               	retlw	9
+   334  025D  3403               	retlw	3
+   335  025E  3407               	retlw	7
+   336  025F  3408               	retlw	8
+   337  0260  3402               	retlw	2
+   338  0261  3406               	retlw	6
+   339  0262  3404               	retlw	4
+   340  0263  3401               	retlw	1
+   341  0264  3405               	retlw	5
+   342  0265  3401               	retlw	1
+   343  0266  3409               	retlw	9
+   344  0267  3403               	retlw	3
+   345  0268  3402               	retlw	2
+   346  0269  3408               	retlw	8
+   347  026A  3406               	retlw	6
+   348  026B  3404               	retlw	4
+   349  026C  3407               	retlw	7
+   350  026D                     __end_of_positions:	
    351                           
    352                           	psect	stringtext2
-   353  0254                     __pstringtext2:	
-   354  0254                     displayLED@ledCathode:	
-   355  0254  3400               	retlw	0
-   356  0255  3402               	retlw	2
-   357  0256  3401               	retlw	1
-   358  0257  3402               	retlw	2
-   359  0258  3400               	retlw	0
-   360  0259  3404               	retlw	4
-   361  025A  3401               	retlw	1
-   362  025B  3401               	retlw	1
-   363  025C  3400               	retlw	0
-   364  025D  3400               	retlw	0
-   365  025E                     __end_ofdisplayLED@ledCathode:	
+   353  0288                     __pstringtext2:	
+   354  0288                     displayLED@ledCathode:	
+   355  0288  3400               	retlw	0
+   356  0289  3402               	retlw	2
+   357  028A  3401               	retlw	1
+   358  028B  3402               	retlw	2
+   359  028C  3400               	retlw	0
+   360  028D  3404               	retlw	4
+   361  028E  3401               	retlw	1
+   362  028F  3401               	retlw	1
+   363  0290  3400               	retlw	0
+   364  0291  3400               	retlw	0
+   365  0292                     __end_ofdisplayLED@ledCathode:	
    366                           
    367                           	psect	stringtext3
-   368  025E                     __pstringtext3:	
-   369  025E                     displayLED@ledAnode:	
-   370  025E  3401               	retlw	1
-   371  025F  3404               	retlw	4
-   372  0260  3402               	retlw	2
-   373  0261  3405               	retlw	5
-   374  0262  3402               	retlw	2
-   375  0263  3405               	retlw	5
-   376  0264  3404               	retlw	4
-   377  0265  3405               	retlw	5
-   378  0266  3404               	retlw	4
-   379  0267  3400               	retlw	0
-   380  0268                     __end_ofdisplayLED@ledAnode:	
+   368  0292                     __pstringtext3:	
+   369  0292                     displayLED@ledAnode:	
+   370  0292  3401               	retlw	1
+   371  0293  3404               	retlw	4
+   372  0294  3402               	retlw	2
+   373  0295  3405               	retlw	5
+   374  0296  3402               	retlw	2
+   375  0297  3405               	retlw	5
+   376  0298  3404               	retlw	4
+   377  0299  3405               	retlw	5
+   378  029A  3404               	retlw	4
+   379  029B  3400               	retlw	0
+   380  029C                     __end_ofdisplayLED@ledAnode:	
    381  000B                     _INTCON	set	11
    382  000C                     _PORTA	set	12
    383  005A                     _T0IF	set	90
@@ -415,7 +415,7 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
    401                           
    402                           ; Clear objects allocated to BANK0
    403  0029  0020               	movlb	0	; select bank0
-   404  002A  01B8               	clrf	__pbssBANK0& (0+127)
+   404  002A  01BA               	clrf	__pbssBANK0& (0+127)
    405  002B                     end_of_initialization:	
    406                           ;End of C runtime variable initialization code
    407                           
@@ -432,9 +432,9 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
    418  007B                     	ds	1
    419                           
    420                           	psect	bssBANK0
-   421  0038                     __pbssBANK0:	
-   422  0038                     _sixtyHertz:	
-   423  0038                     	ds	1
+   421  003A                     __pbssBANK0:	
+   422  003A                     _sixtyHertz:	
+   423  003A                     	ds	1
    424                           
    425                           	psect	cstackCOMMON
    426  0070                     __pcstackCOMMON:	
@@ -516,825 +516,905 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
    502                           
    503                           ; 1 bytes @ 0x14
    504  0034                     	ds	1
-   505  0035                     main@pos:	
+   505  0035                     main@col:	
    506                           
    507                           ; 1 bytes @ 0x15
    508  0035                     	ds	1
-   509  0036                     main@statesShown:	
+   509  0036                     main@j:	
    510                           
    511                           ; 1 bytes @ 0x16
    512  0036                     	ds	1
-   513  0037                     main@gameDisplayed:	
+   513  0037                     main@pos:	
    514                           
    515                           ; 1 bytes @ 0x17
    516  0037                     	ds	1
-   517                           
-   518                           	psect	maintext
-   519  002E                     __pmaintext:	
-   520 ;;
-   521 ;;Main: autosize = 0, tempsize = 8, incstack = 0, save=0
-   522 ;;
-   523 ;; *************** function _main *****************
-   524 ;; Defined at:
-   525 ;;		line 96 in file "main.c"
-   526 ;; Parameters:    Size  Location     Type
-   527 ;;		None
-   528 ;; Auto vars:     Size  Location     Type
-   529 ;;  pos             1   21[BANK0 ] char 
-   530 ;;  gameDisplaye    1   23[BANK0 ] unsigned char 
-   531 ;;  statesShown     1   22[BANK0 ] char 
-   532 ;;  nextGame        1   20[BANK0 ] unsigned char 
-   533 ;;  countUp         1   19[BANK0 ] unsigned char 
-   534 ;;  accumulatorT    1   18[BANK0 ] unsigned char 
-   535 ;;  enable          1   17[BANK0 ] unsigned char 
-   536 ;;  colour          1   16[BANK0 ] unsigned char 
-   537 ;;  updateRate      1   15[BANK0 ] unsigned char 
-   538 ;; Return value:  Size  Location     Type
-   539 ;;                  1    wreg      void 
-   540 ;; Registers used:
-   541 ;;		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
-   542 ;; Tracked objects:
-   543 ;;		On entry : B1F/0
-   544 ;;		On exit  : 0/0
-   545 ;;		Unchanged: 0/0
-   546 ;; Data sizes:     COMMON   BANK0   BANK1
-   547 ;;      Params:         0       0       0
-   548 ;;      Locals:         0       9       0
-   549 ;;      Temps:          0       8       0
-   550 ;;      Totals:         0      17       0
-   551 ;;Total ram usage:       17 bytes
-   552 ;; Hardware stack levels required when called:    2
-   553 ;; This function calls:
-   554 ;;		___wmul
-   555 ;;		_displayLED
-   556 ;; This function is called by:
-   557 ;;		Startup code after reset
-   558 ;; This function uses a non-reentrant model
-   559 ;;
-   560                           
-   561                           
-   562                           ;psect for function _main
-   563  002E                     _main:	
-   564                           
-   565                           ;main.c: 100: OSCCON = 0b11110000;
-   566                           
-   567                           ;incstack = 0
-   568                           ; Regs used in _main: [wreg-fsr0h+status,2+status,0+pclath+cstack]
-   569  002E  30F0               	movlw	240
-   570  002F  0021               	movlb	1	; select bank1
-   571  0030  0099               	movwf	25	;volatile
-   572                           
-   573                           ;main.c: 101: ANSELA = 0;
-   574  0031  0023               	movlb	3	; select bank3
-   575  0032  018C               	clrf	12	;volatile
+   517  0038                     main@statesShown:	
+   518                           
+   519                           ; 1 bytes @ 0x18
+   520  0038                     	ds	1
+   521  0039                     main@gameDisplayed:	
+   522                           
+   523                           ; 1 bytes @ 0x19
+   524  0039                     	ds	1
+   525                           
+   526                           	psect	maintext
+   527  002E                     __pmaintext:	
+   528 ;;
+   529 ;;Main: autosize = 0, tempsize = 8, incstack = 0, save=0
+   530 ;;
+   531 ;; *************** function _main *****************
+   532 ;; Defined at:
+   533 ;;		line 98 in file "main.c"
+   534 ;; Parameters:    Size  Location     Type
+   535 ;;		None
+   536 ;; Auto vars:     Size  Location     Type
+   537 ;;  j               1   22[BANK0 ] unsigned char 
+   538 ;;  pos             1   23[BANK0 ] char 
+   539 ;;  col             1   21[BANK0 ] unsigned char 
+   540 ;;  gameDisplaye    1   25[BANK0 ] unsigned char 
+   541 ;;  statesShown     1   24[BANK0 ] char 
+   542 ;;  nextGame        1   20[BANK0 ] unsigned char 
+   543 ;;  countUp         1   19[BANK0 ] unsigned char 
+   544 ;;  accumulatorT    1   18[BANK0 ] unsigned char 
+   545 ;;  enable          1   17[BANK0 ] unsigned char 
+   546 ;;  colour          1   16[BANK0 ] unsigned char 
+   547 ;;  updateRate      1   15[BANK0 ] unsigned char 
+   548 ;; Return value:  Size  Location     Type
+   549 ;;                  1    wreg      void 
+   550 ;; Registers used:
+   551 ;;		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+   552 ;; Tracked objects:
+   553 ;;		On entry : B1F/0
+   554 ;;		On exit  : 0/0
+   555 ;;		Unchanged: 0/0
+   556 ;; Data sizes:     COMMON   BANK0   BANK1
+   557 ;;      Params:         0       0       0
+   558 ;;      Locals:         0      11       0
+   559 ;;      Temps:          0       8       0
+   560 ;;      Totals:         0      19       0
+   561 ;;Total ram usage:       19 bytes
+   562 ;; Hardware stack levels required when called:    2
+   563 ;; This function calls:
+   564 ;;		___wmul
+   565 ;;		_displayLED
+   566 ;; This function is called by:
+   567 ;;		Startup code after reset
+   568 ;; This function uses a non-reentrant model
+   569 ;;
+   570                           
+   571                           
+   572                           ;psect for function _main
+   573  002E                     _main:	
+   574                           
+   575                           ;main.c: 102: OSCCON = 0b11110000;
    576                           
-   577                           ;main.c: 102: ADCON0 = 0;
-   578  0033  0021               	movlb	1	; select bank1
-   579  0034  019D               	clrf	29	;volatile
-   580                           
-   581                           ;main.c: 103: TRISA = (1<<3)|(1<<4);
-   582  0035  3018               	movlw	24
-   583  0036  008C               	movwf	12	;volatile
-   584                           
-   585                           ;main.c: 104: PORTA = 0;
-   586  0037  0020               	movlb	0	; select bank0
-   587  0038  018C               	clrf	12	;volatile
-   588                           
-   589                           ;main.c: 105: WPUA = 0;
-   590  0039  0024               	movlb	4	; select bank4
-   591  003A  018C               	clrf	12	;volatile
-   592                           
-   593                           ;main.c: 108: OPTION_REG = 0b10000111;
-   594  003B  3087               	movlw	135
-   595  003C  0021               	movlb	1	; select bank1
-   596  003D  0095               	movwf	21	;volatile
-   597                           
-   598                           ;main.c: 109: INTCON = 0b10100000;
-   599  003E  30A0               	movlw	160
-   600  003F  008B               	movwf	11	;volatile
-   601                           
-   602                           ;main.c: 111: unsigned char colour = 0;
-   603  0040  0020               	movlb	0	; select bank0
-   604  0041  01B0               	clrf	main@colour
-   605                           
-   606                           ;main.c: 112: unsigned char enable = 1;
-   607  0042  01B1               	clrf	main@enable
-   608  0043  0AB1               	incf	main@enable,f
-   609                           
-   610                           ;main.c: 113: signed char statesShown = -1;
-   611  0044  01B6               	clrf	main@statesShown
-   612  0045  03B6               	decf	main@statesShown,f
-   613                           
-   614                           ;main.c: 114: unsigned char accumulatorTwo = 0;
-   615  0046  01B2               	clrf	main@accumulatorTwo
-   616                           
-   617                           ;main.c: 115: unsigned char updateRate = 60;
-   618  0047  303C               	movlw	60
-   619  0048  00A7               	movwf	??_main
-   620  0049  0827               	movf	??_main,w
-   621  004A  00AF               	movwf	main@updateRate
-   622                           
-   623                           ;main.c: 116: unsigned char gameDisplayed = 0;
-   624  004B  01B7               	clrf	main@gameDisplayed
-   625                           
-   626                           ;main.c: 117: unsigned char countUp = 1;
-   627  004C  01B3               	clrf	main@countUp
-   628  004D  0AB3               	incf	main@countUp,f
-   629                           
-   630                           ;main.c: 118: unsigned char nextGame = 0;
-   631  004E  01B4               	clrf	main@nextGame
-   632  004F                     l756:	
-   633                           ;main.c: 121: while(1)
-   634                           
+   577                           ;incstack = 0
+   578                           ; Regs used in _main: [wreg-fsr0h+status,2+status,0+pclath+cstack]
+   579  002E  30F0               	movlw	240
+   580  002F  0021               	movlb	1	; select bank1
+   581  0030  0099               	movwf	25	;volatile
+   582                           
+   583                           ;main.c: 103: ANSELA = 0;
+   584  0031  0023               	movlb	3	; select bank3
+   585  0032  018C               	clrf	12	;volatile
+   586                           
+   587                           ;main.c: 104: ADCON0 = 0;
+   588  0033  0021               	movlb	1	; select bank1
+   589  0034  019D               	clrf	29	;volatile
+   590                           
+   591                           ;main.c: 105: TRISA = (1<<3)|(1<<4);
+   592  0035  3018               	movlw	24
+   593  0036  008C               	movwf	12	;volatile
+   594                           
+   595                           ;main.c: 106: PORTA = 0;
+   596  0037  0020               	movlb	0	; select bank0
+   597  0038  018C               	clrf	12	;volatile
+   598                           
+   599                           ;main.c: 107: WPUA = 0;
+   600  0039  0024               	movlb	4	; select bank4
+   601  003A  018C               	clrf	12	;volatile
+   602                           
+   603                           ;main.c: 110: OPTION_REG = 0b10000111;
+   604  003B  3087               	movlw	135
+   605  003C  0021               	movlb	1	; select bank1
+   606  003D  0095               	movwf	21	;volatile
+   607                           
+   608                           ;main.c: 111: INTCON = 0b10100000;
+   609  003E  30A0               	movlw	160
+   610  003F  008B               	movwf	11	;volatile
+   611                           
+   612                           ;main.c: 113: unsigned char colour = 0;
+   613  0040  0020               	movlb	0	; select bank0
+   614  0041  01B0               	clrf	main@colour
+   615                           
+   616                           ;main.c: 114: unsigned char enable = 1;
+   617  0042  01B1               	clrf	main@enable
+   618  0043  0AB1               	incf	main@enable,f
+   619                           
+   620                           ;main.c: 115: signed char statesShown = -1;
+   621  0044  01B8               	clrf	main@statesShown
+   622  0045  03B8               	decf	main@statesShown,f
+   623                           
+   624                           ;main.c: 116: unsigned char accumulatorTwo = 0;
+   625  0046  01B2               	clrf	main@accumulatorTwo
+   626                           
+   627                           ;main.c: 117: unsigned char updateRate = 60;
+   628  0047  303C               	movlw	60
+   629  0048  00A7               	movwf	??_main
+   630  0049  0827               	movf	??_main,w
+   631  004A  00AF               	movwf	main@updateRate
+   632                           
+   633                           ;main.c: 118: unsigned char gameDisplayed = 0;
+   634  004B  01B9               	clrf	main@gameDisplayed
    635                           
-   636                           ;main.c: 122: {
-   637                           ;main.c: 124: if (nextGame)
-   638  004F  0834               	movf	main@nextGame,w
-   639  0050  1903               	btfsc	3,2
-   640  0051  2866               	goto	l58
-   641                           
-   642                           ;main.c: 125: {
-   643                           ;main.c: 126: nextGame = 0;
-   644  0052  01B4               	clrf	main@nextGame
-   645                           
-   646                           ;main.c: 127: if (gameDisplayed == 0) countUp = 1;
-   647  0053  0837               	movf	main@gameDisplayed,w
-   648  0054  1D03               	btfss	3,2
-   649  0055  2858               	goto	l764
-   650  0056  01B3               	clrf	main@countUp
-   651  0057  0AB3               	incf	main@countUp,f
-   652  0058                     l764:	
-   653                           
-   654                           ;main.c: 128: if (gameDisplayed == 15-1) countUp = 0;
-   655  0058  300E               	movlw	14
-   656  0059  0637               	xorwf	main@gameDisplayed,w
-   657  005A  1903               	btfsc	3,2
-   658  005B  01B3               	clrf	main@countUp
-   659                           
-   660                           ;main.c: 130: countUp ? gameDisplayed++ : gameDisplayed--;
-   661  005C  0833               	movf	main@countUp,w
-   662  005D  1903               	btfsc	3,2
-   663  005E  2864               	goto	l772
-   664  005F  3001               	movlw	1
-   665  0060  00A7               	movwf	??_main
-   666  0061  0827               	movf	??_main,w
-   667  0062  07B7               	addwf	main@gameDisplayed,f
-   668  0063  2866               	goto	l58
-   669  0064                     l772:	
-   670  0064  3001               	movlw	1
-   671  0065  02B7               	subwf	main@gameDisplayed,f
-   672  0066                     l58:	
-   673                           
-   674                           ;main.c: 131: }
-   675                           ;main.c: 134: if (sixtyHertz)
-   676  0066  0838               	movf	_sixtyHertz,w	;volatile
-   677  0067  1903               	btfsc	3,2
-   678  0068  28BA               	goto	l792
-   679                           
-   680                           ;main.c: 135: {
-   681                           ;main.c: 136: sixtyHertz = 0;
-   682  0069  01B8               	clrf	_sixtyHertz	;volatile
-   683                           
-   684                           ;main.c: 138: if (accumulatorTwo >= (updateRate - (5 * gameDisplayed - 13)))
-   685  006A  0837               	movf	main@gameDisplayed,w
-   686  006B  00A7               	movwf	??_main
-   687  006C  01A8               	clrf	??_main+1
-   688  006D  0827               	movf	??_main,w
-   689  006E  00F2               	movwf	___wmul@multiplier
-   690  006F  0828               	movf	??_main+1,w
-   691  0070  00F3               	movwf	___wmul@multiplier+1
-   692  0071  3005               	movlw	5
-   693  0072  00F4               	movwf	___wmul@multiplicand
-   694  0073  3000               	movlw	0
-   695  0074  00F5               	movwf	___wmul@multiplicand+1
-   696  0075  2239               	fcall	___wmul
-   697  0076  0872               	movf	?___wmul,w
-   698  0077  3EF3               	addlw	243
-   699  0078  0020               	movlb	0	; select bank0
-   700  0079  00A9               	movwf	??_main+2
-   701  007A  30FF               	movlw	255
-   702  007B  3D73               	addwfc	?___wmul+1,w
-   703  007C  00AA               	movwf	??_main+3
-   704  007D  09A9               	comf	??_main+2,f
-   705  007E  09AA               	comf	??_main+3,f
-   706  007F  0AA9               	incf	??_main+2,f
-   707  0080  1903               	skipnz
-   708  0081  0AAA               	incf	??_main+3,f
-   709  0082  082F               	movf	main@updateRate,w
-   710  0083  0729               	addwf	??_main+2,w
-   711  0084  00AB               	movwf	??_main+4
-   712  0085  082A               	movf	??_main+3,w
-   713  0086  1803               	skipnc
-   714  0087  0A2A               	incf	??_main+3,w
-   715  0088  00AC               	movwf	??_main+5
-   716  0089  082C               	movf	??_main+5,w
-   717  008A  3A80               	xorlw	128
-   718  008B  3C80               	sublw	128
-   719  008C  1D03               	skipz
-   720  008D  2890               	goto	u715
-   721  008E  082B               	movf	??_main+4,w
-   722  008F  0232               	subwf	main@accumulatorTwo,w
-   723  0090                     u715:	
-   724  0090  1C03               	skipc
-   725  0091  28B5               	goto	l790
-   726                           
-   727                           ;main.c: 139: {
-   728                           ;main.c: 140: accumulatorTwo = 0;
-   729  0092  0020               	movlb	0	; select bank0
-   730  0093  01B2               	clrf	main@accumulatorTwo
-   731                           
-   732                           ;main.c: 142: if (statesShown >= 9)
-   733  0094  0836               	movf	main@statesShown,w
-   734  0095  3A80               	xorlw	128
-   735  0096  3E77               	addlw	-137
-   736  0097  1C03               	skipc
-   737  0098  28A8               	goto	l67
-   738                           
-   739                           ;main.c: 143: {
-   740                           ;main.c: 144: nextGame = 1;
-   741  0099  01B4               	clrf	main@nextGame
-   742  009A  0AB4               	incf	main@nextGame,f
-   743                           
-   744                           ;main.c: 145: _delay((unsigned long)((300)*(32000000/4000.0)));
-   745  009B  300D               	movlw	13
-   746  009C  0020               	movlb	0	; select bank0
-   747  009D  00A8               	movwf	??_main+1
-   748  009E  302D               	movlw	45
-   749  009F  00A7               	movwf	??_main
-   750  00A0  30D7               	movlw	215
-   751  00A1                     u777:	
-   752  00A1  0B89               	decfsz	9,f
-   753  00A2  28A1               	goto	u777
-   754  00A3  0BA7               	decfsz	??_main,f
-   755  00A4  28A1               	goto	u777
-   756  00A5  0BA8               	decfsz	??_main+1,f
-   757  00A6  28A1               	goto	u777
-   758  00A7  3200               	nop2
-   759  00A8                     l67:	
-   760                           
-   761                           ;main.c: 146: }
-   762                           ;main.c: 148: (statesShown >= 9) ? statesShown = 0 : statesShown++;
-   763  00A8  0020               	movlb	0	; select bank0
-   764  00A9  0836               	movf	main@statesShown,w
-   765  00AA  3A80               	xorlw	128
-   766  00AB  3E77               	addlw	-137
-   767  00AC  1C03               	skipc
-   768  00AD  28B0               	goto	l788
-   769  00AE  01B6               	clrf	main@statesShown
-   770  00AF  28BA               	goto	l792
-   771  00B0                     l788:	
-   772  00B0  3001               	movlw	1
-   773  00B1  00A7               	movwf	??_main
-   774  00B2  0827               	movf	??_main,w
-   775  00B3  07B6               	addwf	main@statesShown,f
-   776                           
-   777                           ;main.c: 150: }
-   778  00B4  28BA               	goto	l792
-   779  00B5                     l790:	
-   780                           
-   781                           ;main.c: 151: else accumulatorTwo++;
-   782  00B5  3001               	movlw	1
-   783  00B6  0020               	movlb	0	; select bank0
-   784  00B7  00A7               	movwf	??_main
-   785  00B8  0827               	movf	??_main,w
-   786  00B9  07B2               	addwf	main@accumulatorTwo,f
-   787  00BA                     l792:	
-   788                           
-   789                           ;main.c: 152: }
-   790                           ;main.c: 155: for (signed char pos = 0; pos <= statesShown; pos++)
-   791  00BA  01B5               	clrf	main@pos
-   792  00BB                     l808:	
-   793  00BB  0836               	movf	main@statesShown,w
-   794  00BC  3A80               	xorlw	128
-   795  00BD  00A7               	movwf	??_main
-   796  00BE  0835               	movf	main@pos,w
-   797  00BF  3A80               	xorlw	128
-   798  00C0  02A7               	subwf	??_main,f
-   799  00C1  1C03               	btfss	3,0
-   800  00C2  284F               	goto	l756
-   801                           
-   802                           ;main.c: 156: {
-   803                           ;main.c: 157: (pos % 2 == 0) ? colour = 0 : colour = 1;
-   804  00C3  0835               	movf	main@pos,w
-   805  00C4  00A7               	movwf	??_main
-   806  00C5  01A8               	clrf	??_main+1
-   807  00C6  1BA7               	btfsc	??_main,7
-   808  00C7  03A8               	decf	??_main+1,f
-   809  00C8  1827               	btfsc	??_main,0
-   810  00C9  28CC               	goto	l76
-   811  00CA  01B0               	clrf	main@colour
-   812  00CB  28CE               	goto	l798
-   813  00CC                     l76:	
-   814  00CC  01B0               	clrf	main@colour
-   815  00CD  0AB0               	incf	main@colour,f
-   816  00CE                     l798:	
-   817                           
-   818                           ;main.c: 158: (statesShown == 9) ? enable = 0 : enable = 1;
-   819  00CE  3009               	movlw	9
-   820  00CF  0636               	xorwf	main@statesShown,w
-   821  00D0  1D03               	btfss	3,2
-   822  00D1  28D4               	goto	l80
-   823  00D2  01B1               	clrf	main@enable
-   824  00D3  28D6               	goto	l802
-   825  00D4                     l80:	
-   826  00D4  01B1               	clrf	main@enable
-   827  00D5  0AB1               	incf	main@enable,f
-   828  00D6                     l802:	
-   829                           
-   830                           ;main.c: 159: displayLED(positions[gameDisplayed][pos], colour, enable);
-   831  00D6  0830               	movf	main@colour,w
-   832  00D7  00A7               	movwf	??_main
-   833  00D8  0827               	movf	??_main,w
-   834  00D9  00F8               	movwf	displayLED@colour
-   835  00DA  0831               	movf	main@enable,w
-   836  00DB  00A8               	movwf	??_main+1
-   837  00DC  0828               	movf	??_main+1,w
-   838  00DD  00F9               	movwf	displayLED@enable
-   839  00DE  0837               	movf	main@gameDisplayed,w
-   840  00DF  00A9               	movwf	??_main+2
-   841  00E0  01AA               	clrf	??_main+3
-   842  00E1  0829               	movf	??_main+2,w
-   843  00E2  00F2               	movwf	___wmul@multiplier
-   844  00E3  082A               	movf	??_main+3,w
-   845  00E4  00F3               	movwf	___wmul@multiplier+1
-   846  00E5  3009               	movlw	9
-   847  00E6  00F4               	movwf	___wmul@multiplicand
-   848  00E7  3000               	movlw	0
-   849  00E8  00F5               	movwf	___wmul@multiplicand+1
-   850  00E9  2239               	fcall	___wmul
-   851  00EA  30B2               	movlw	low (_positions| (0+32768))
-   852  00EB  0020               	movlb	0	; select bank0
-   853  00EC  00AB               	movwf	??_main+4
-   854  00ED  3081               	movlw	high (_positions| (0+32768))
-   855  00EE  00AC               	movwf	??_main+5
-   856  00EF  0872               	movf	?___wmul,w
-   857  00F0  072B               	addwf	??_main+4,w
-   858  00F1  00AD               	movwf	??_main+6
-   859  00F2  0873               	movf	?___wmul+1,w
-   860  00F3  3D2C               	addwfc	??_main+5,w
-   861  00F4  00AE               	movwf	??_main+7
-   862  00F5  0835               	movf	main@pos,w
-   863  00F6  072D               	addwf	??_main+6,w
-   864  00F7  0084               	movwf	4
-   865  00F8  082E               	movf	??_main+7,w
-   866  00F9  1803               	skipnc
-   867  00FA  0A2E               	incf	??_main+7,w
-   868  00FB  0085               	movwf	5
-   869  00FC  0800               	movf	0,w	;code access
-   870  00FD  210D               	fcall	_displayLED
-   871                           
-   872                           ;main.c: 160: _delay((unsigned long)((500)*(32000000/4000000.0)));
-   873  00FE  3006               	movlw	6
-   874  00FF  0020               	movlb	0	; select bank0
-   875  0100  00A7               	movwf	??_main
-   876  0101  3030               	movlw	48
-   877  0102                     u787:	
-   878  0102  0B89               	decfsz	9,f
-   879  0103  2902               	goto	u787
-   880  0104  0BA7               	decfsz	??_main,f
-   881  0105  2902               	goto	u787
-   882  0106  0000               	nop
-   883  0107  3001               	movlw	1
-   884  0108  0020               	movlb	0	; select bank0
-   885  0109  00A7               	movwf	??_main
-   886  010A  0827               	movf	??_main,w
-   887  010B  07B5               	addwf	main@pos,f
-   888  010C  28BB               	goto	l808
-   889  010D                     __end_of_main:	
-   890                           
-   891                           	psect	text1
-   892  010D                     __ptext1:	
-   893 ;; *************** function _displayLED *****************
-   894 ;; Defined at:
-   895 ;;		line 61 in file "main.c"
-   896 ;; Parameters:    Size  Location     Type
-   897 ;;  pos             1    wreg     unsigned char 
-   898 ;;  colour          1    8[COMMON] unsigned char 
-   899 ;;  enable          1    9[COMMON] unsigned char 
-   900 ;; Auto vars:     Size  Location     Type
-   901 ;;  pos             1    6[BANK0 ] unsigned char 
-   902 ;; Return value:  Size  Location     Type
-   903 ;;                  1    wreg      void 
-   904 ;; Registers used:
-   905 ;;		wreg, fsr0l, fsr0h, status,2, status,0, pclath
-   906 ;; Tracked objects:
-   907 ;;		On entry : 0/0
-   908 ;;		On exit  : 0/0
-   909 ;;		Unchanged: 0/0
-   910 ;; Data sizes:     COMMON   BANK0   BANK1
-   911 ;;      Params:         2       0       0
-   912 ;;      Locals:         0       1       0
-   913 ;;      Temps:          0       6       0
-   914 ;;      Totals:         2       7       0
-   915 ;;Total ram usage:        9 bytes
-   916 ;; Hardware stack levels used:    1
-   917 ;; Hardware stack levels required when called:    1
-   918 ;; This function calls:
-   919 ;;		Nothing
-   920 ;; This function is called by:
-   921 ;;		_main
-   922 ;; This function uses a non-reentrant model
-   923 ;;
-   924                           
-   925                           
-   926                           ;psect for function _displayLED
-   927  010D                     _displayLED:	
-   928                           
-   929                           ;incstack = 0
-   930                           ; Regs used in _displayLED: [wreg-fsr0h+status,2+status,0+pclath]
-   931                           ;displayLED@pos stored from wreg
-   932  010D  0020               	movlb	0	; select bank0
-   933  010E  00A6               	movwf	displayLED@pos
-   934                           
-   935                           ;main.c: 67: const unsigned char ledAnode[10] = {1,4,2,5,2,5,4,5,4};
-   936                           ;main.c: 68: const unsigned char ledCathode[10] = {0,2,1,2,0,4,1,1,0};
-   937                           ;main.c: 70: if (enable)
-   938  010F  0879               	movf	displayLED@enable,w
-   939  0110  1903               	btfsc	3,2
-   940  0111  29AD               	goto	l730
-   941                           
-   942                           ;main.c: 71: {
-   943                           ;main.c: 72: if (colour == 0)
-   944  0112  0878               	movf	displayLED@colour,w
-   945  0113  1D03               	btfss	3,2
-   946  0114  295D               	goto	l724
-   947                           
-   948                           ;main.c: 73: {
-   949                           ;main.c: 74: TRISA = 0xFF & ~(1<<ledAnode[pos-1]|1<<ledCathode[pos-1]);
-   950  0115  3001               	movlw	1
-   951  0116  00A0               	movwf	??_displayLED
-   952  0117  0826               	movf	displayLED@pos,w
-   953  0118  3EFF               	addlw	255
-   954  0119  00A1               	movwf	??_displayLED+1
-   955  011A  30FF               	movlw	255
-   956  011B  1803               	skipnc
-   957  011C  3000               	movlw	0
-   958  011D  00A2               	movwf	??_displayLED+2
-   959  011E  3054               	movlw	low (displayLED@ledCathode| (0+32768))
-   960  011F  0721               	addwf	??_displayLED+1,w
-   961  0120  0084               	movwf	4
-   962  0121  3082               	movlw	high (displayLED@ledCathode| (0+32768))
-   963  0122  3D22               	addwfc	??_displayLED+2,w
-   964  0123  0085               	movwf	5
-   965  0124  0800               	movf	0,w	;code access
-   966  0125  0A89               	incf	9,f
-   967  0126  2928               	goto	u594
-   968  0127                     u595:	
-   969  0127  35A0               	lslf	??_displayLED,f
-   970  0128                     u594:	
-   971  0128  0B89               	decfsz	9,f
-   972  0129  2927               	goto	u595
-   973  012A  3001               	movlw	1
-   974  012B  00A3               	movwf	??_displayLED+3
-   975  012C  0826               	movf	displayLED@pos,w
-   976  012D  3EFF               	addlw	255
-   977  012E  00A4               	movwf	??_displayLED+4
-   978  012F  30FF               	movlw	255
-   979  0130  1803               	skipnc
-   980  0131  3000               	movlw	0
-   981  0132  00A5               	movwf	??_displayLED+5
-   982  0133  305E               	movlw	low (displayLED@ledAnode| (0+32768))
-   983  0134  0724               	addwf	??_displayLED+4,w
-   984  0135  0084               	movwf	4
-   985  0136  3082               	movlw	high (displayLED@ledAnode| (0+32768))
-   986  0137  3D25               	addwfc	??_displayLED+5,w
-   987  0138  0085               	movwf	5
-   988  0139  0800               	movf	0,w	;code access
-   989  013A  0A89               	incf	9,f
-   990  013B  293D               	goto	u604
-   991  013C                     u605:	
-   992  013C  35A3               	lslf	??_displayLED+3,f
-   993  013D                     u604:	
-   994  013D  0B89               	decfsz	9,f
-   995  013E  293C               	goto	u605
-   996  013F  0823               	movf	??_displayLED+3,w
-   997  0140  0420               	iorwf	??_displayLED,w
-   998  0141  3AFF               	xorlw	255
-   999  0142  0021               	movlb	1	; select bank1
-  1000  0143  008C               	movwf	12	;volatile
-  1001                           
-  1002                           ;main.c: 75: PORTA = 0 | (1<<ledAnode[pos-1]);
-  1003  0144  3001               	movlw	1
-  1004  0145  0020               	movlb	0	; select bank0
-  1005  0146  00A0               	movwf	??_displayLED
-  1006  0147  0826               	movf	displayLED@pos,w
-  1007  0148  3EFF               	addlw	255
-  1008  0149  00A1               	movwf	??_displayLED+1
-  1009  014A  30FF               	movlw	255
-  1010  014B  1803               	skipnc
-  1011  014C  3000               	movlw	0
-  1012  014D  00A2               	movwf	??_displayLED+2
-  1013  014E  305E               	movlw	low (displayLED@ledAnode| (0+32768))
-  1014  014F  0721               	addwf	??_displayLED+1,w
-  1015  0150  0084               	movwf	4
-  1016  0151  3082               	movlw	high (displayLED@ledAnode| (0+32768))
-  1017  0152  3D22               	addwfc	??_displayLED+2,w
-  1018  0153  0085               	movwf	5
-  1019  0154  0800               	movf	0,w	;code access
-  1020  0155  0A89               	incf	9,f
-  1021  0156  2958               	goto	u614
-  1022  0157                     u615:	
-  1023  0157  35A0               	lslf	??_displayLED,f
-  1024  0158                     u614:	
-  1025  0158  0B89               	decfsz	9,f
-  1026  0159  2957               	goto	u615
-  1027  015A  0820               	movf	??_displayLED,w
-  1028  015B  008C               	movwf	12	;volatile
-  1029                           
-  1030                           ;main.c: 76: }
-  1031  015C  0008               	return
-  1032  015D                     l724:	
-  1033                           
-  1034                           ;main.c: 77: else if (colour == 1)
-  1035  015D  0378               	decf	displayLED@colour,w
-  1036  015E  1D03               	btfss	3,2
-  1037  015F  29A8               	goto	l728
-  1038                           
-  1039                           ;main.c: 78: {
-  1040                           ;main.c: 79: TRISA = 0xFF & ~(1<<ledAnode[pos-1]|1<<ledCathode[pos-1]);
-  1041  0160  3001               	movlw	1
-  1042  0161  00A0               	movwf	??_displayLED
-  1043  0162  0826               	movf	displayLED@pos,w
-  1044  0163  3EFF               	addlw	255
-  1045  0164  00A1               	movwf	??_displayLED+1
-  1046  0165  30FF               	movlw	255
-  1047  0166  1803               	skipnc
-  1048  0167  3000               	movlw	0
-  1049  0168  00A2               	movwf	??_displayLED+2
-  1050  0169  3054               	movlw	low (displayLED@ledCathode| (0+32768))
-  1051  016A  0721               	addwf	??_displayLED+1,w
-  1052  016B  0084               	movwf	4
-  1053  016C  3082               	movlw	high (displayLED@ledCathode| (0+32768))
-  1054  016D  3D22               	addwfc	??_displayLED+2,w
-  1055  016E  0085               	movwf	5
-  1056  016F  0800               	movf	0,w	;code access
-  1057  0170  0A89               	incf	9,f
-  1058  0171  2973               	goto	u634
-  1059  0172                     u635:	
-  1060  0172  35A0               	lslf	??_displayLED,f
-  1061  0173                     u634:	
-  1062  0173  0B89               	decfsz	9,f
-  1063  0174  2972               	goto	u635
-  1064  0175  3001               	movlw	1
-  1065  0176  00A3               	movwf	??_displayLED+3
-  1066  0177  0826               	movf	displayLED@pos,w
-  1067  0178  3EFF               	addlw	255
-  1068  0179  00A4               	movwf	??_displayLED+4
-  1069  017A  30FF               	movlw	255
-  1070  017B  1803               	skipnc
-  1071  017C  3000               	movlw	0
-  1072  017D  00A5               	movwf	??_displayLED+5
-  1073  017E  305E               	movlw	low (displayLED@ledAnode| (0+32768))
-  1074  017F  0724               	addwf	??_displayLED+4,w
-  1075  0180  0084               	movwf	4
-  1076  0181  3082               	movlw	high (displayLED@ledAnode| (0+32768))
-  1077  0182  3D25               	addwfc	??_displayLED+5,w
-  1078  0183  0085               	movwf	5
-  1079  0184  0800               	movf	0,w	;code access
-  1080  0185  0A89               	incf	9,f
-  1081  0186  2988               	goto	u644
-  1082  0187                     u645:	
-  1083  0187  35A3               	lslf	??_displayLED+3,f
-  1084  0188                     u644:	
-  1085  0188  0B89               	decfsz	9,f
-  1086  0189  2987               	goto	u645
-  1087  018A  0823               	movf	??_displayLED+3,w
-  1088  018B  0420               	iorwf	??_displayLED,w
-  1089  018C  3AFF               	xorlw	255
-  1090  018D  0021               	movlb	1	; select bank1
-  1091  018E  008C               	movwf	12	;volatile
-  1092                           
-  1093                           ;main.c: 80: PORTA = 0 | (1<<ledCathode[pos-1]);
-  1094  018F  3001               	movlw	1
-  1095  0190  0020               	movlb	0	; select bank0
-  1096  0191  00A0               	movwf	??_displayLED
-  1097  0192  0826               	movf	displayLED@pos,w
-  1098  0193  3EFF               	addlw	255
-  1099  0194  00A1               	movwf	??_displayLED+1
-  1100  0195  30FF               	movlw	255
-  1101  0196  1803               	skipnc
-  1102  0197  3000               	movlw	0
-  1103  0198  00A2               	movwf	??_displayLED+2
-  1104  0199  3054               	movlw	low (displayLED@ledCathode| (0+32768))
-  1105  019A  0721               	addwf	??_displayLED+1,w
-  1106  019B  0084               	movwf	4
-  1107  019C  3082               	movlw	high (displayLED@ledCathode| (0+32768))
-  1108  019D  3D22               	addwfc	??_displayLED+2,w
-  1109  019E  0085               	movwf	5
-  1110  019F  0800               	movf	0,w	;code access
-  1111  01A0  0A89               	incf	9,f
-  1112  01A1  29A3               	goto	u654
-  1113  01A2                     u655:	
-  1114  01A2  35A0               	lslf	??_displayLED,f
-  1115  01A3                     u654:	
-  1116  01A3  0B89               	decfsz	9,f
-  1117  01A4  29A2               	goto	u655
-  1118  01A5  0820               	movf	??_displayLED,w
-  1119  01A6  008C               	movwf	12	;volatile
-  1120                           
-  1121                           ;main.c: 81: }
-  1122  01A7  0008               	return
-  1123  01A8                     l728:	
-  1124                           
-  1125                           ;main.c: 82: else
-  1126                           ;main.c: 83: {
-  1127                           ;main.c: 84: TRISA = 0;
-  1128  01A8  0021               	movlb	1	; select bank1
-  1129  01A9  018C               	clrf	12	;volatile
-  1130                           
-  1131                           ;main.c: 85: PORTA= 0;
-  1132  01AA  0020               	movlb	0	; select bank0
-  1133  01AB  018C               	clrf	12	;volatile
-  1134                           
-  1135                           ;main.c: 86: }
-  1136                           ;main.c: 87: }
-  1137  01AC  0008               	return
-  1138  01AD                     l730:	
-  1139                           
-  1140                           ;main.c: 88: else
-  1141                           ;main.c: 89: {
-  1142                           ;main.c: 90: TRISA = 0;
-  1143  01AD  0021               	movlb	1	; select bank1
-  1144  01AE  018C               	clrf	12	;volatile
-  1145                           
-  1146                           ;main.c: 91: PORTA= 0;
-  1147  01AF  0020               	movlb	0	; select bank0
-  1148  01B0  018C               	clrf	12	;volatile
-  1149  01B1  0008               	return
-  1150  01B2                     __end_of_displayLED:	
-  1151                           
-  1152                           	psect	text2
-  1153  0239                     __ptext2:	
-  1154 ;; *************** function ___wmul *****************
-  1155 ;; Defined at:
-  1156 ;;		line 15 in file "E:\XC8\sources\common\Umul16.c"
-  1157 ;; Parameters:    Size  Location     Type
-  1158 ;;  multiplier      2    2[COMMON] unsigned int 
-  1159 ;;  multiplicand    2    4[COMMON] unsigned int 
-  1160 ;; Auto vars:     Size  Location     Type
-  1161 ;;  product         2    6[COMMON] unsigned int 
-  1162 ;; Return value:  Size  Location     Type
-  1163 ;;                  2    2[COMMON] unsigned int 
-  1164 ;; Registers used:
-  1165 ;;		wreg, status,2, status,0
-  1166 ;; Tracked objects:
-  1167 ;;		On entry : 0/0
-  1168 ;;		On exit  : 0/0
-  1169 ;;		Unchanged: 0/0
-  1170 ;; Data sizes:     COMMON   BANK0   BANK1
-  1171 ;;      Params:         4       0       0
-  1172 ;;      Locals:         2       0       0
-  1173 ;;      Temps:          0       0       0
-  1174 ;;      Totals:         6       0       0
-  1175 ;;Total ram usage:        6 bytes
-  1176 ;; Hardware stack levels used:    1
-  1177 ;; Hardware stack levels required when called:    1
-  1178 ;; This function calls:
-  1179 ;;		Nothing
-  1180 ;; This function is called by:
-  1181 ;;		_main
-  1182 ;; This function uses a non-reentrant model
-  1183 ;;
-  1184                           
-  1185                           
-  1186                           ;psect for function ___wmul
-  1187  0239                     ___wmul:	
-  1188                           
-  1189                           ;incstack = 0
-  1190                           ; Regs used in ___wmul: [wreg+status,2+status,0]
-  1191  0239  01F6               	clrf	___wmul@product
-  1192  023A  01F7               	clrf	___wmul@product+1
-  1193  023B                     l608:	
-  1194  023B  1C72               	btfss	___wmul@multiplier,0
-  1195  023C  2A41               	goto	l90
-  1196  023D  0874               	movf	___wmul@multiplicand,w
-  1197  023E  07F6               	addwf	___wmul@product,f
-  1198  023F  0875               	movf	___wmul@multiplicand+1,w
-  1199  0240  3DF7               	addwfc	___wmul@product+1,f
-  1200  0241                     l90:	
-  1201  0241  3001               	movlw	1
-  1202  0242                     u395:	
-  1203  0242  35F4               	lslf	___wmul@multiplicand,f
-  1204  0243  0DF5               	rlf	___wmul@multiplicand+1,f
-  1205  0244  0B89               	decfsz	9,f
-  1206  0245  2A42               	goto	u395
-  1207  0246  3001               	movlw	1
-  1208  0247                     u405:	
-  1209  0247  36F3               	lsrf	___wmul@multiplier+1,f
-  1210  0248  0CF2               	rrf	___wmul@multiplier,f
-  1211  0249  0B89               	decfsz	9,f
-  1212  024A  2A47               	goto	u405
-  1213  024B  0872               	movf	___wmul@multiplier,w
-  1214  024C  0473               	iorwf	___wmul@multiplier+1,w
-  1215  024D  1D03               	btfss	3,2
-  1216  024E  2A3B               	goto	l608
-  1217  024F  0877               	movf	___wmul@product+1,w
-  1218  0250  00F3               	movwf	?___wmul+1
-  1219  0251  0876               	movf	___wmul@product,w
-  1220  0252  00F2               	movwf	?___wmul
-  1221  0253  0008               	return
-  1222  0254                     __end_of___wmul:	
-  1223                           
-  1224                           	psect	intentry
-  1225  0004                     __pintentry:	
-  1226 ;; *************** function _isr *****************
-  1227 ;; Defined at:
-  1228 ;;		line 36 in file "main.c"
-  1229 ;; Parameters:    Size  Location     Type
-  1230 ;;		None
-  1231 ;; Auto vars:     Size  Location     Type
-  1232 ;;		None
-  1233 ;; Return value:  Size  Location     Type
-  1234 ;;                  1    wreg      void 
-  1235 ;; Registers used:
-  1236 ;;		wreg, status,2, status,0
-  1237 ;; Tracked objects:
-  1238 ;;		On entry : 0/0
-  1239 ;;		On exit  : 0/0
-  1240 ;;		Unchanged: 0/0
-  1241 ;; Data sizes:     COMMON   BANK0   BANK1
-  1242 ;;      Params:         0       0       0
-  1243 ;;      Locals:         0       0       0
-  1244 ;;      Temps:          2       0       0
-  1245 ;;      Totals:         2       0       0
-  1246 ;;Total ram usage:        2 bytes
-  1247 ;; Hardware stack levels used:    1
-  1248 ;; This function calls:
-  1249 ;;		Nothing
-  1250 ;; This function is called by:
-  1251 ;;		Interrupt level 1
-  1252 ;; This function uses a non-reentrant model
-  1253 ;;
-  1254                           
-  1255  0004                     _isr:	
-  1256                           
-  1257                           ;incstack = 0
-  1258  0004  147E               	bsf	126,0	;set compiler interrupt flag (level 1)
-  1259                           
-  1260                           ; Regs used in _isr: [wreg+status,2+status,0]
-  1261  0005  3180               	pagesel	$
-  1262  0006  0020               	movlb	0	; select bank0
-  1263  0007  087F               	movf	127,w
-  1264  0008  00F1               	movwf	??_isr+1
+   636                           ;main.c: 119: unsigned char countUp = 1;
+   637  004C  01B3               	clrf	main@countUp
+   638  004D  0AB3               	incf	main@countUp,f
+   639                           
+   640                           ;main.c: 120: unsigned char nextGame = 0;
+   641  004E  01B4               	clrf	main@nextGame
+   642                           
+   643                           ;main.c: 124: for (unsigned char col = 0; col <= 1; col ++)
+   644  004F  01B5               	clrf	main@col
+   645  0050  3002               	movlw	2
+   646  0051  0235               	subwf	main@col,w
+   647  0052  1803               	btfsc	3,0
+   648  0053  2883               	goto	l838
+   649  0054                     l818:	
+   650                           
+   651                           ;main.c: 125: {
+   652                           ;main.c: 126: for (unsigned char j = 9; j > 0; j--)
+   653  0054  3009               	movlw	9
+   654  0055  00A7               	movwf	??_main
+   655  0056  0827               	movf	??_main,w
+   656  0057  00B6               	movwf	main@j
+   657  0058  0836               	movf	main@j,w
+   658  0059  1903               	btfsc	3,2
+   659  005A  2875               	goto	l832
+   660  005B                     l824:	
+   661                           
+   662                           ;main.c: 127: {
+   663                           ;main.c: 128: displayLED(j,col,1);
+   664  005B  0835               	movf	main@col,w
+   665  005C  00A7               	movwf	??_main
+   666  005D  0827               	movf	??_main,w
+   667  005E  00F8               	movwf	displayLED@colour
+   668  005F  01F9               	clrf	displayLED@enable
+   669  0060  0AF9               	incf	displayLED@enable,f
+   670  0061  0836               	movf	main@j,w
+   671  0062  2141               	fcall	_displayLED
+   672                           
+   673                           ;main.c: 129: _delay((unsigned long)((100)*(32000000/4000.0)));
+   674  0063  3005               	movlw	5
+   675  0064  0020               	movlb	0	; select bank0
+   676  0065  00A8               	movwf	??_main+1
+   677  0066  300F               	movlw	15
+   678  0067  00A7               	movwf	??_main
+   679  0068  30F1               	movlw	241
+   680  0069                     u897:	
+   681  0069  0B89               	decfsz	9,f
+   682  006A  2869               	goto	u897
+   683  006B  0BA7               	decfsz	??_main,f
+   684  006C  2869               	goto	u897
+   685  006D  0BA8               	decfsz	??_main+1,f
+   686  006E  2869               	goto	u897
+   687  006F  3001               	movlw	1
+   688  0070  0020               	movlb	0	; select bank0
+   689  0071  02B6               	subwf	main@j,f
+   690  0072  0836               	movf	main@j,w
+   691  0073  1D03               	btfss	3,2
+   692  0074  285B               	goto	l824
+   693  0075                     l832:	
+   694                           
+   695                           ;main.c: 130: }
+   696                           ;main.c: 131: displayLED(10,0,1);
+   697  0075  01F8               	clrf	displayLED@colour
+   698  0076  01F9               	clrf	displayLED@enable
+   699  0077  0AF9               	incf	displayLED@enable,f
+   700  0078  300A               	movlw	10
+   701  0079  2141               	fcall	_displayLED
+   702  007A  3001               	movlw	1
+   703  007B  0020               	movlb	0	; select bank0
+   704  007C  00A7               	movwf	??_main
+   705  007D  0827               	movf	??_main,w
+   706  007E  07B5               	addwf	main@col,f
+   707  007F  3002               	movlw	2
+   708  0080  0235               	subwf	main@col,w
+   709  0081  1C03               	skipc
+   710  0082  2854               	goto	l818
+   711  0083                     l838:	
+   712                           ;main.c: 132: }
+   713                           ;main.c: 134: while(1)
+   714                           
+   715                           
+   716                           ;main.c: 135: {
+   717                           ;main.c: 137: if (nextGame)
+   718  0083  0834               	movf	main@nextGame,w
+   719  0084  1903               	btfsc	3,2
+   720  0085  289A               	goto	l62
+   721                           
+   722                           ;main.c: 138: {
+   723                           ;main.c: 139: nextGame = 0;
+   724  0086  01B4               	clrf	main@nextGame
+   725                           
+   726                           ;main.c: 140: if (gameDisplayed == 0) countUp = 1;
+   727  0087  0839               	movf	main@gameDisplayed,w
+   728  0088  1D03               	btfss	3,2
+   729  0089  288C               	goto	l846
+   730  008A  01B3               	clrf	main@countUp
+   731  008B  0AB3               	incf	main@countUp,f
+   732  008C                     l846:	
+   733                           
+   734                           ;main.c: 141: if (gameDisplayed == 15-1) countUp = 0;
+   735  008C  300E               	movlw	14
+   736  008D  0639               	xorwf	main@gameDisplayed,w
+   737  008E  1903               	btfsc	3,2
+   738  008F  01B3               	clrf	main@countUp
+   739                           
+   740                           ;main.c: 143: countUp ? gameDisplayed++ : gameDisplayed--;
+   741  0090  0833               	movf	main@countUp,w
+   742  0091  1903               	btfsc	3,2
+   743  0092  2898               	goto	l854
+   744  0093  3001               	movlw	1
+   745  0094  00A7               	movwf	??_main
+   746  0095  0827               	movf	??_main,w
+   747  0096  07B9               	addwf	main@gameDisplayed,f
+   748  0097  289A               	goto	l62
+   749  0098                     l854:	
+   750  0098  3001               	movlw	1
+   751  0099  02B9               	subwf	main@gameDisplayed,f
+   752  009A                     l62:	
+   753                           
+   754                           ;main.c: 144: }
+   755                           ;main.c: 147: if (sixtyHertz)
+   756  009A  083A               	movf	_sixtyHertz,w	;volatile
+   757  009B  1903               	btfsc	3,2
+   758  009C  28EE               	goto	l874
+   759                           
+   760                           ;main.c: 148: {
+   761                           ;main.c: 149: sixtyHertz = 0;
+   762  009D  01BA               	clrf	_sixtyHertz	;volatile
+   763                           
+   764                           ;main.c: 151: if (accumulatorTwo >= (updateRate - (5 * gameDisplayed - 13)))
+   765  009E  0839               	movf	main@gameDisplayed,w
+   766  009F  00A7               	movwf	??_main
+   767  00A0  01A8               	clrf	??_main+1
+   768  00A1  0827               	movf	??_main,w
+   769  00A2  00F2               	movwf	___wmul@multiplier
+   770  00A3  0828               	movf	??_main+1,w
+   771  00A4  00F3               	movwf	___wmul@multiplier+1
+   772  00A5  3005               	movlw	5
+   773  00A6  00F4               	movwf	___wmul@multiplicand
+   774  00A7  3000               	movlw	0
+   775  00A8  00F5               	movwf	___wmul@multiplicand+1
+   776  00A9  226D               	fcall	___wmul
+   777  00AA  0872               	movf	?___wmul,w
+   778  00AB  3EF3               	addlw	243
+   779  00AC  0020               	movlb	0	; select bank0
+   780  00AD  00A9               	movwf	??_main+2
+   781  00AE  30FF               	movlw	255
+   782  00AF  3D73               	addwfc	?___wmul+1,w
+   783  00B0  00AA               	movwf	??_main+3
+   784  00B1  09A9               	comf	??_main+2,f
+   785  00B2  09AA               	comf	??_main+3,f
+   786  00B3  0AA9               	incf	??_main+2,f
+   787  00B4  1903               	skipnz
+   788  00B5  0AAA               	incf	??_main+3,f
+   789  00B6  082F               	movf	main@updateRate,w
+   790  00B7  0729               	addwf	??_main+2,w
+   791  00B8  00AB               	movwf	??_main+4
+   792  00B9  082A               	movf	??_main+3,w
+   793  00BA  1803               	skipnc
+   794  00BB  0A2A               	incf	??_main+3,w
+   795  00BC  00AC               	movwf	??_main+5
+   796  00BD  082C               	movf	??_main+5,w
+   797  00BE  3A80               	xorlw	128
+   798  00BF  3C80               	sublw	128
+   799  00C0  1D03               	skipz
+   800  00C1  28C4               	goto	u835
+   801  00C2  082B               	movf	??_main+4,w
+   802  00C3  0232               	subwf	main@accumulatorTwo,w
+   803  00C4                     u835:	
+   804  00C4  1C03               	skipc
+   805  00C5  28E9               	goto	l872
+   806                           
+   807                           ;main.c: 152: {
+   808                           ;main.c: 153: accumulatorTwo = 0;
+   809  00C6  0020               	movlb	0	; select bank0
+   810  00C7  01B2               	clrf	main@accumulatorTwo
+   811                           
+   812                           ;main.c: 155: if (statesShown >= 9)
+   813  00C8  0838               	movf	main@statesShown,w
+   814  00C9  3A80               	xorlw	128
+   815  00CA  3E77               	addlw	-137
+   816  00CB  1C03               	skipc
+   817  00CC  28DC               	goto	l71
+   818                           
+   819                           ;main.c: 156: {
+   820                           ;main.c: 157: nextGame = 1;
+   821  00CD  01B4               	clrf	main@nextGame
+   822  00CE  0AB4               	incf	main@nextGame,f
+   823                           
+   824                           ;main.c: 158: _delay((unsigned long)((300)*(32000000/4000.0)));
+   825  00CF  300D               	movlw	13
+   826  00D0  0020               	movlb	0	; select bank0
+   827  00D1  00A8               	movwf	??_main+1
+   828  00D2  302D               	movlw	45
+   829  00D3  00A7               	movwf	??_main
+   830  00D4  30D7               	movlw	215
+   831  00D5                     u907:	
+   832  00D5  0B89               	decfsz	9,f
+   833  00D6  28D5               	goto	u907
+   834  00D7  0BA7               	decfsz	??_main,f
+   835  00D8  28D5               	goto	u907
+   836  00D9  0BA8               	decfsz	??_main+1,f
+   837  00DA  28D5               	goto	u907
+   838  00DB  3200               	nop2
+   839  00DC                     l71:	
+   840                           
+   841                           ;main.c: 159: }
+   842                           ;main.c: 161: (statesShown >= 9) ? statesShown = 0 : statesShown++;
+   843  00DC  0020               	movlb	0	; select bank0
+   844  00DD  0838               	movf	main@statesShown,w
+   845  00DE  3A80               	xorlw	128
+   846  00DF  3E77               	addlw	-137
+   847  00E0  1C03               	skipc
+   848  00E1  28E4               	goto	l870
+   849  00E2  01B8               	clrf	main@statesShown
+   850  00E3  28EE               	goto	l874
+   851  00E4                     l870:	
+   852  00E4  3001               	movlw	1
+   853  00E5  00A7               	movwf	??_main
+   854  00E6  0827               	movf	??_main,w
+   855  00E7  07B8               	addwf	main@statesShown,f
+   856                           
+   857                           ;main.c: 163: }
+   858  00E8  28EE               	goto	l874
+   859  00E9                     l872:	
+   860                           
+   861                           ;main.c: 164: else accumulatorTwo++;
+   862  00E9  3001               	movlw	1
+   863  00EA  0020               	movlb	0	; select bank0
+   864  00EB  00A7               	movwf	??_main
+   865  00EC  0827               	movf	??_main,w
+   866  00ED  07B2               	addwf	main@accumulatorTwo,f
+   867  00EE                     l874:	
+   868                           
+   869                           ;main.c: 165: }
+   870                           ;main.c: 168: for (signed char pos = 0; pos <= statesShown; pos++)
+   871  00EE  01B7               	clrf	main@pos
+   872  00EF                     l890:	
+   873  00EF  0838               	movf	main@statesShown,w
+   874  00F0  3A80               	xorlw	128
+   875  00F1  00A7               	movwf	??_main
+   876  00F2  0837               	movf	main@pos,w
+   877  00F3  3A80               	xorlw	128
+   878  00F4  02A7               	subwf	??_main,f
+   879  00F5  1C03               	btfss	3,0
+   880  00F6  2883               	goto	l838
+   881                           
+   882                           ;main.c: 169: {
+   883                           ;main.c: 170: (pos % 2 == 0) ? colour = 0 : colour = 1;
+   884  00F7  0837               	movf	main@pos,w
+   885  00F8  00A7               	movwf	??_main
+   886  00F9  01A8               	clrf	??_main+1
+   887  00FA  1BA7               	btfsc	??_main,7
+   888  00FB  03A8               	decf	??_main+1,f
+   889  00FC  1827               	btfsc	??_main,0
+   890  00FD  2900               	goto	l80
+   891  00FE  01B0               	clrf	main@colour
+   892  00FF  2902               	goto	l880
+   893  0100                     l80:	
+   894  0100  01B0               	clrf	main@colour
+   895  0101  0AB0               	incf	main@colour,f
+   896  0102                     l880:	
+   897                           
+   898                           ;main.c: 171: (statesShown == 9) ? enable = 0 : enable = 1;
+   899  0102  3009               	movlw	9
+   900  0103  0638               	xorwf	main@statesShown,w
+   901  0104  1D03               	btfss	3,2
+   902  0105  2908               	goto	l84
+   903  0106  01B1               	clrf	main@enable
+   904  0107  290A               	goto	l884
+   905  0108                     l84:	
+   906  0108  01B1               	clrf	main@enable
+   907  0109  0AB1               	incf	main@enable,f
+   908  010A                     l884:	
+   909                           
+   910                           ;main.c: 172: displayLED(positions[gameDisplayed][pos], colour, enable);
+   911  010A  0830               	movf	main@colour,w
+   912  010B  00A7               	movwf	??_main
+   913  010C  0827               	movf	??_main,w
+   914  010D  00F8               	movwf	displayLED@colour
+   915  010E  0831               	movf	main@enable,w
+   916  010F  00A8               	movwf	??_main+1
+   917  0110  0828               	movf	??_main+1,w
+   918  0111  00F9               	movwf	displayLED@enable
+   919  0112  0839               	movf	main@gameDisplayed,w
+   920  0113  00A9               	movwf	??_main+2
+   921  0114  01AA               	clrf	??_main+3
+   922  0115  0829               	movf	??_main+2,w
+   923  0116  00F2               	movwf	___wmul@multiplier
+   924  0117  082A               	movf	??_main+3,w
+   925  0118  00F3               	movwf	___wmul@multiplier+1
+   926  0119  3009               	movlw	9
+   927  011A  00F4               	movwf	___wmul@multiplicand
+   928  011B  3000               	movlw	0
+   929  011C  00F5               	movwf	___wmul@multiplicand+1
+   930  011D  226D               	fcall	___wmul
+   931  011E  30E6               	movlw	low (_positions| (0+32768))
+   932  011F  0020               	movlb	0	; select bank0
+   933  0120  00AB               	movwf	??_main+4
+   934  0121  3081               	movlw	high (_positions| (0+32768))
+   935  0122  00AC               	movwf	??_main+5
+   936  0123  0872               	movf	?___wmul,w
+   937  0124  072B               	addwf	??_main+4,w
+   938  0125  00AD               	movwf	??_main+6
+   939  0126  0873               	movf	?___wmul+1,w
+   940  0127  3D2C               	addwfc	??_main+5,w
+   941  0128  00AE               	movwf	??_main+7
+   942  0129  0837               	movf	main@pos,w
+   943  012A  072D               	addwf	??_main+6,w
+   944  012B  0084               	movwf	4
+   945  012C  082E               	movf	??_main+7,w
+   946  012D  1803               	skipnc
+   947  012E  0A2E               	incf	??_main+7,w
+   948  012F  0085               	movwf	5
+   949  0130  0800               	movf	0,w	;code access
+   950  0131  2141               	fcall	_displayLED
+   951                           
+   952                           ;main.c: 173: _delay((unsigned long)((500)*(32000000/4000000.0)));
+   953  0132  3006               	movlw	6
+   954  0133  0020               	movlb	0	; select bank0
+   955  0134  00A7               	movwf	??_main
+   956  0135  3030               	movlw	48
+   957  0136                     u917:	
+   958  0136  0B89               	decfsz	9,f
+   959  0137  2936               	goto	u917
+   960  0138  0BA7               	decfsz	??_main,f
+   961  0139  2936               	goto	u917
+   962  013A  0000               	nop
+   963  013B  3001               	movlw	1
+   964  013C  0020               	movlb	0	; select bank0
+   965  013D  00A7               	movwf	??_main
+   966  013E  0827               	movf	??_main,w
+   967  013F  07B7               	addwf	main@pos,f
+   968  0140  28EF               	goto	l890
+   969  0141                     __end_of_main:	
+   970                           
+   971                           	psect	text1
+   972  0141                     __ptext1:	
+   973 ;; *************** function _displayLED *****************
+   974 ;; Defined at:
+   975 ;;		line 62 in file "main.c"
+   976 ;; Parameters:    Size  Location     Type
+   977 ;;  pos             1    wreg     unsigned char 
+   978 ;;  colour          1    8[COMMON] unsigned char 
+   979 ;;  enable          1    9[COMMON] unsigned char 
+   980 ;; Auto vars:     Size  Location     Type
+   981 ;;  pos             1    6[BANK0 ] unsigned char 
+   982 ;; Return value:  Size  Location     Type
+   983 ;;                  1    wreg      void 
+   984 ;; Registers used:
+   985 ;;		wreg, fsr0l, fsr0h, status,2, status,0, pclath
+   986 ;; Tracked objects:
+   987 ;;		On entry : 0/0
+   988 ;;		On exit  : 0/0
+   989 ;;		Unchanged: 0/0
+   990 ;; Data sizes:     COMMON   BANK0   BANK1
+   991 ;;      Params:         2       0       0
+   992 ;;      Locals:         0       1       0
+   993 ;;      Temps:          0       6       0
+   994 ;;      Totals:         2       7       0
+   995 ;;Total ram usage:        9 bytes
+   996 ;; Hardware stack levels used:    1
+   997 ;; Hardware stack levels required when called:    1
+   998 ;; This function calls:
+   999 ;;		Nothing
+  1000 ;; This function is called by:
+  1001 ;;		_main
+  1002 ;; This function uses a non-reentrant model
+  1003 ;;
+  1004                           
+  1005                           
+  1006                           ;psect for function _displayLED
+  1007  0141                     _displayLED:	
+  1008                           
+  1009                           ;incstack = 0
+  1010                           ; Regs used in _displayLED: [wreg-fsr0h+status,2+status,0+pclath]
+  1011                           ;displayLED@pos stored from wreg
+  1012  0141  0020               	movlb	0	; select bank0
+  1013  0142  00A6               	movwf	displayLED@pos
+  1014                           
+  1015                           ;main.c: 68: const unsigned char ledAnode[10] = {1,4,2,5,2,5,4,5,4};
+  1016                           ;main.c: 69: const unsigned char ledCathode[10] = {0,2,1,2,0,4,1,1,0};
+  1017                           ;main.c: 71: if (enable)
+  1018  0143  0879               	movf	displayLED@enable,w
+  1019  0144  1903               	btfsc	3,2
+  1020  0145  29E1               	goto	l786
+  1021                           
+  1022                           ;main.c: 72: {
+  1023                           ;main.c: 73: if (colour == 0)
+  1024  0146  0878               	movf	displayLED@colour,w
+  1025  0147  1D03               	btfss	3,2
+  1026  0148  2991               	goto	l780
+  1027                           
+  1028                           ;main.c: 74: {
+  1029                           ;main.c: 75: TRISA = 0xFF & ~(1<<ledAnode[pos-1]|1<<ledCathode[pos-1]);
+  1030  0149  3001               	movlw	1
+  1031  014A  00A0               	movwf	??_displayLED
+  1032  014B  0826               	movf	displayLED@pos,w
+  1033  014C  3EFF               	addlw	255
+  1034  014D  00A1               	movwf	??_displayLED+1
+  1035  014E  30FF               	movlw	255
+  1036  014F  1803               	skipnc
+  1037  0150  3000               	movlw	0
+  1038  0151  00A2               	movwf	??_displayLED+2
+  1039  0152  3088               	movlw	low (displayLED@ledCathode| (0+32768))
+  1040  0153  0721               	addwf	??_displayLED+1,w
+  1041  0154  0084               	movwf	4
+  1042  0155  3082               	movlw	high (displayLED@ledCathode| (0+32768))
+  1043  0156  3D22               	addwfc	??_displayLED+2,w
+  1044  0157  0085               	movwf	5
+  1045  0158  0800               	movf	0,w	;code access
+  1046  0159  0A89               	incf	9,f
+  1047  015A  295C               	goto	u674
+  1048  015B                     u675:	
+  1049  015B  35A0               	lslf	??_displayLED,f
+  1050  015C                     u674:	
+  1051  015C  0B89               	decfsz	9,f
+  1052  015D  295B               	goto	u675
+  1053  015E  3001               	movlw	1
+  1054  015F  00A3               	movwf	??_displayLED+3
+  1055  0160  0826               	movf	displayLED@pos,w
+  1056  0161  3EFF               	addlw	255
+  1057  0162  00A4               	movwf	??_displayLED+4
+  1058  0163  30FF               	movlw	255
+  1059  0164  1803               	skipnc
+  1060  0165  3000               	movlw	0
+  1061  0166  00A5               	movwf	??_displayLED+5
+  1062  0167  3092               	movlw	low (displayLED@ledAnode| (0+32768))
+  1063  0168  0724               	addwf	??_displayLED+4,w
+  1064  0169  0084               	movwf	4
+  1065  016A  3082               	movlw	high (displayLED@ledAnode| (0+32768))
+  1066  016B  3D25               	addwfc	??_displayLED+5,w
+  1067  016C  0085               	movwf	5
+  1068  016D  0800               	movf	0,w	;code access
+  1069  016E  0A89               	incf	9,f
+  1070  016F  2971               	goto	u684
+  1071  0170                     u685:	
+  1072  0170  35A3               	lslf	??_displayLED+3,f
+  1073  0171                     u684:	
+  1074  0171  0B89               	decfsz	9,f
+  1075  0172  2970               	goto	u685
+  1076  0173  0823               	movf	??_displayLED+3,w
+  1077  0174  0420               	iorwf	??_displayLED,w
+  1078  0175  3AFF               	xorlw	255
+  1079  0176  0021               	movlb	1	; select bank1
+  1080  0177  008C               	movwf	12	;volatile
+  1081                           
+  1082                           ;main.c: 76: PORTA = 0 | (1<<ledAnode[pos-1]);
+  1083  0178  3001               	movlw	1
+  1084  0179  0020               	movlb	0	; select bank0
+  1085  017A  00A0               	movwf	??_displayLED
+  1086  017B  0826               	movf	displayLED@pos,w
+  1087  017C  3EFF               	addlw	255
+  1088  017D  00A1               	movwf	??_displayLED+1
+  1089  017E  30FF               	movlw	255
+  1090  017F  1803               	skipnc
+  1091  0180  3000               	movlw	0
+  1092  0181  00A2               	movwf	??_displayLED+2
+  1093  0182  3092               	movlw	low (displayLED@ledAnode| (0+32768))
+  1094  0183  0721               	addwf	??_displayLED+1,w
+  1095  0184  0084               	movwf	4
+  1096  0185  3082               	movlw	high (displayLED@ledAnode| (0+32768))
+  1097  0186  3D22               	addwfc	??_displayLED+2,w
+  1098  0187  0085               	movwf	5
+  1099  0188  0800               	movf	0,w	;code access
+  1100  0189  0A89               	incf	9,f
+  1101  018A  298C               	goto	u694
+  1102  018B                     u695:	
+  1103  018B  35A0               	lslf	??_displayLED,f
+  1104  018C                     u694:	
+  1105  018C  0B89               	decfsz	9,f
+  1106  018D  298B               	goto	u695
+  1107  018E  0820               	movf	??_displayLED,w
+  1108  018F  008C               	movwf	12	;volatile
+  1109                           
+  1110                           ;main.c: 77: }
+  1111  0190  0008               	return
+  1112  0191                     l780:	
+  1113                           
+  1114                           ;main.c: 78: else if (colour == 1)
+  1115  0191  0378               	decf	displayLED@colour,w
+  1116  0192  1D03               	btfss	3,2
+  1117  0193  29DC               	goto	l784
+  1118                           
+  1119                           ;main.c: 79: {
+  1120                           ;main.c: 80: TRISA = 0xFF & ~(1<<ledAnode[pos-1]|1<<ledCathode[pos-1]);
+  1121  0194  3001               	movlw	1
+  1122  0195  00A0               	movwf	??_displayLED
+  1123  0196  0826               	movf	displayLED@pos,w
+  1124  0197  3EFF               	addlw	255
+  1125  0198  00A1               	movwf	??_displayLED+1
+  1126  0199  30FF               	movlw	255
+  1127  019A  1803               	skipnc
+  1128  019B  3000               	movlw	0
+  1129  019C  00A2               	movwf	??_displayLED+2
+  1130  019D  3088               	movlw	low (displayLED@ledCathode| (0+32768))
+  1131  019E  0721               	addwf	??_displayLED+1,w
+  1132  019F  0084               	movwf	4
+  1133  01A0  3082               	movlw	high (displayLED@ledCathode| (0+32768))
+  1134  01A1  3D22               	addwfc	??_displayLED+2,w
+  1135  01A2  0085               	movwf	5
+  1136  01A3  0800               	movf	0,w	;code access
+  1137  01A4  0A89               	incf	9,f
+  1138  01A5  29A7               	goto	u714
+  1139  01A6                     u715:	
+  1140  01A6  35A0               	lslf	??_displayLED,f
+  1141  01A7                     u714:	
+  1142  01A7  0B89               	decfsz	9,f
+  1143  01A8  29A6               	goto	u715
+  1144  01A9  3001               	movlw	1
+  1145  01AA  00A3               	movwf	??_displayLED+3
+  1146  01AB  0826               	movf	displayLED@pos,w
+  1147  01AC  3EFF               	addlw	255
+  1148  01AD  00A4               	movwf	??_displayLED+4
+  1149  01AE  30FF               	movlw	255
+  1150  01AF  1803               	skipnc
+  1151  01B0  3000               	movlw	0
+  1152  01B1  00A5               	movwf	??_displayLED+5
+  1153  01B2  3092               	movlw	low (displayLED@ledAnode| (0+32768))
+  1154  01B3  0724               	addwf	??_displayLED+4,w
+  1155  01B4  0084               	movwf	4
+  1156  01B5  3082               	movlw	high (displayLED@ledAnode| (0+32768))
+  1157  01B6  3D25               	addwfc	??_displayLED+5,w
+  1158  01B7  0085               	movwf	5
+  1159  01B8  0800               	movf	0,w	;code access
+  1160  01B9  0A89               	incf	9,f
+  1161  01BA  29BC               	goto	u724
+  1162  01BB                     u725:	
+  1163  01BB  35A3               	lslf	??_displayLED+3,f
+  1164  01BC                     u724:	
+  1165  01BC  0B89               	decfsz	9,f
+  1166  01BD  29BB               	goto	u725
+  1167  01BE  0823               	movf	??_displayLED+3,w
+  1168  01BF  0420               	iorwf	??_displayLED,w
+  1169  01C0  3AFF               	xorlw	255
+  1170  01C1  0021               	movlb	1	; select bank1
+  1171  01C2  008C               	movwf	12	;volatile
+  1172                           
+  1173                           ;main.c: 81: PORTA = 0 | (1<<ledCathode[pos-1]);
+  1174  01C3  3001               	movlw	1
+  1175  01C4  0020               	movlb	0	; select bank0
+  1176  01C5  00A0               	movwf	??_displayLED
+  1177  01C6  0826               	movf	displayLED@pos,w
+  1178  01C7  3EFF               	addlw	255
+  1179  01C8  00A1               	movwf	??_displayLED+1
+  1180  01C9  30FF               	movlw	255
+  1181  01CA  1803               	skipnc
+  1182  01CB  3000               	movlw	0
+  1183  01CC  00A2               	movwf	??_displayLED+2
+  1184  01CD  3088               	movlw	low (displayLED@ledCathode| (0+32768))
+  1185  01CE  0721               	addwf	??_displayLED+1,w
+  1186  01CF  0084               	movwf	4
+  1187  01D0  3082               	movlw	high (displayLED@ledCathode| (0+32768))
+  1188  01D1  3D22               	addwfc	??_displayLED+2,w
+  1189  01D2  0085               	movwf	5
+  1190  01D3  0800               	movf	0,w	;code access
+  1191  01D4  0A89               	incf	9,f
+  1192  01D5  29D7               	goto	u734
+  1193  01D6                     u735:	
+  1194  01D6  35A0               	lslf	??_displayLED,f
+  1195  01D7                     u734:	
+  1196  01D7  0B89               	decfsz	9,f
+  1197  01D8  29D6               	goto	u735
+  1198  01D9  0820               	movf	??_displayLED,w
+  1199  01DA  008C               	movwf	12	;volatile
+  1200                           
+  1201                           ;main.c: 82: }
+  1202  01DB  0008               	return
+  1203  01DC                     l784:	
+  1204                           
+  1205                           ;main.c: 83: else
+  1206                           ;main.c: 84: {
+  1207                           ;main.c: 85: TRISA = 0;
+  1208  01DC  0021               	movlb	1	; select bank1
+  1209  01DD  018C               	clrf	12	;volatile
+  1210                           
+  1211                           ;main.c: 86: PORTA= 0;
+  1212  01DE  0020               	movlb	0	; select bank0
+  1213  01DF  018C               	clrf	12	;volatile
+  1214                           
+  1215                           ;main.c: 87: }
+  1216                           ;main.c: 88: }
+  1217  01E0  0008               	return
+  1218  01E1                     l786:	
+  1219                           
+  1220                           ;main.c: 89: else
+  1221                           ;main.c: 90: {
+  1222                           ;main.c: 91: TRISA = 0;
+  1223  01E1  0021               	movlb	1	; select bank1
+  1224  01E2  018C               	clrf	12	;volatile
+  1225                           
+  1226                           ;main.c: 92: PORTA= 0;
+  1227  01E3  0020               	movlb	0	; select bank0
+  1228  01E4  018C               	clrf	12	;volatile
+  1229  01E5  0008               	return
+  1230  01E6                     __end_of_displayLED:	
+  1231                           
+  1232                           	psect	text2
+  1233  026D                     __ptext2:	
+  1234 ;; *************** function ___wmul *****************
+  1235 ;; Defined at:
+  1236 ;;		line 15 in file "E:\XC8\sources\common\Umul16.c"
+  1237 ;; Parameters:    Size  Location     Type
+  1238 ;;  multiplier      2    2[COMMON] unsigned int 
+  1239 ;;  multiplicand    2    4[COMMON] unsigned int 
+  1240 ;; Auto vars:     Size  Location     Type
+  1241 ;;  product         2    6[COMMON] unsigned int 
+  1242 ;; Return value:  Size  Location     Type
+  1243 ;;                  2    2[COMMON] unsigned int 
+  1244 ;; Registers used:
+  1245 ;;		wreg, status,2, status,0
+  1246 ;; Tracked objects:
+  1247 ;;		On entry : 0/0
+  1248 ;;		On exit  : 0/0
+  1249 ;;		Unchanged: 0/0
+  1250 ;; Data sizes:     COMMON   BANK0   BANK1
+  1251 ;;      Params:         4       0       0
+  1252 ;;      Locals:         2       0       0
+  1253 ;;      Temps:          0       0       0
+  1254 ;;      Totals:         6       0       0
+  1255 ;;Total ram usage:        6 bytes
+  1256 ;; Hardware stack levels used:    1
+  1257 ;; Hardware stack levels required when called:    1
+  1258 ;; This function calls:
+  1259 ;;		Nothing
+  1260 ;; This function is called by:
+  1261 ;;		_main
+  1262 ;; This function uses a non-reentrant model
+  1263 ;;
+  1264                           
   1265                           
-  1266                           ;main.c: 39: if(T0IE && T0IF)
-  1267  0009  1A8B               	btfsc	11,5	;volatile
-  1268  000A  1D0B               	btfss	11,2	;volatile
-  1269  000B  2822               	goto	i1l39
-  1270                           
-  1271                           ;main.c: 40: {
-  1272                           ;main.c: 41: T0IF = 0;
-  1273  000C  110B               	bcf	11,2	;volatile
-  1274                           
-  1275                           ;main.c: 42: oneTwentyHertz = 1;
-  1276  000D  3001               	movlw	1
-  1277  000E  00F0               	movwf	??_isr
-  1278  000F  0870               	movf	??_isr,w
-  1279  0010  00FB               	movwf	_oneTwentyHertz	;volatile
-  1280                           
-  1281                           ;main.c: 45: if (oneTwentyHertz)
-  1282  0011  087B               	movf	_oneTwentyHertz,w	;volatile
-  1283  0012  1903               	btfsc	3,2
-  1284  0013  2822               	goto	i1l39
-  1285                           
-  1286                           ;main.c: 46: {
-  1287                           ;main.c: 47: oneTwentyHertz = 0;
-  1288  0014  01FB               	clrf	_oneTwentyHertz	;volatile
-  1289                           
-  1290                           ;main.c: 49: if (accumulator >= 1)
-  1291  0015  087A               	movf	_accumulator,w	;volatile
-  1292  0016  1903               	btfsc	3,2
-  1293  0017  281E               	goto	i1l638
-  1294                           
-  1295                           ;main.c: 50: {
-  1296                           ;main.c: 51: accumulator = 0;
-  1297  0018  01FA               	clrf	_accumulator	;volatile
-  1298                           
-  1299                           ;main.c: 52: sixtyHertz = 1;
-  1300  0019  3001               	movlw	1
-  1301  001A  00F0               	movwf	??_isr
-  1302  001B  0870               	movf	??_isr,w
-  1303  001C  00B8               	movwf	_sixtyHertz	;volatile
-  1304                           
-  1305                           ;main.c: 53: }
-  1306  001D  2822               	goto	i1l39
-  1307  001E                     i1l638:	
-  1308                           
-  1309                           ;main.c: 54: else
-  1310                           ;main.c: 55: accumulator++;
-  1311  001E  3001               	movlw	1
-  1312  001F  00F0               	movwf	??_isr
-  1313  0020  0870               	movf	??_isr,w
-  1314  0021  07FA               	addwf	_accumulator,f	;volatile
-  1315  0022                     i1l39:	
-  1316  0022  0871               	movf	??_isr+1,w
-  1317  0023  00FF               	movwf	127
-  1318  0024  107E               	bcf	126,0	;clear compiler interrupt flag (level 1)
-  1319  0025  0009               	retfie
-  1320  0026                     __end_of_isr:	
-  1321  007E                     btemp	set	126	;btemp
-  1322  007E                     int$flags	set	126
-  1323  007E                     wtemp0	set	126
+  1266                           ;psect for function ___wmul
+  1267  026D                     ___wmul:	
+  1268                           
+  1269                           ;incstack = 0
+  1270                           ; Regs used in ___wmul: [wreg+status,2+status,0]
+  1271  026D  01F6               	clrf	___wmul@product
+  1272  026E  01F7               	clrf	___wmul@product+1
+  1273  026F                     l638:	
+  1274  026F  1C72               	btfss	___wmul@multiplier,0
+  1275  0270  2A75               	goto	l94
+  1276  0271  0874               	movf	___wmul@multiplicand,w
+  1277  0272  07F6               	addwf	___wmul@product,f
+  1278  0273  0875               	movf	___wmul@multiplicand+1,w
+  1279  0274  3DF7               	addwfc	___wmul@product+1,f
+  1280  0275                     l94:	
+  1281  0275  3001               	movlw	1
+  1282  0276                     u435:	
+  1283  0276  35F4               	lslf	___wmul@multiplicand,f
+  1284  0277  0DF5               	rlf	___wmul@multiplicand+1,f
+  1285  0278  0B89               	decfsz	9,f
+  1286  0279  2A76               	goto	u435
+  1287  027A  3001               	movlw	1
+  1288  027B                     u445:	
+  1289  027B  36F3               	lsrf	___wmul@multiplier+1,f
+  1290  027C  0CF2               	rrf	___wmul@multiplier,f
+  1291  027D  0B89               	decfsz	9,f
+  1292  027E  2A7B               	goto	u445
+  1293  027F  0872               	movf	___wmul@multiplier,w
+  1294  0280  0473               	iorwf	___wmul@multiplier+1,w
+  1295  0281  1D03               	btfss	3,2
+  1296  0282  2A6F               	goto	l638
+  1297  0283  0877               	movf	___wmul@product+1,w
+  1298  0284  00F3               	movwf	?___wmul+1
+  1299  0285  0876               	movf	___wmul@product,w
+  1300  0286  00F2               	movwf	?___wmul
+  1301  0287  0008               	return
+  1302  0288                     __end_of___wmul:	
+  1303                           
+  1304                           	psect	intentry
+  1305  0004                     __pintentry:	
+  1306 ;; *************** function _isr *****************
+  1307 ;; Defined at:
+  1308 ;;		line 36 in file "main.c"
+  1309 ;; Parameters:    Size  Location     Type
+  1310 ;;		None
+  1311 ;; Auto vars:     Size  Location     Type
+  1312 ;;		None
+  1313 ;; Return value:  Size  Location     Type
+  1314 ;;                  1    wreg      void 
+  1315 ;; Registers used:
+  1316 ;;		wreg, status,2, status,0
+  1317 ;; Tracked objects:
+  1318 ;;		On entry : 0/0
+  1319 ;;		On exit  : 0/0
+  1320 ;;		Unchanged: 0/0
+  1321 ;; Data sizes:     COMMON   BANK0   BANK1
+  1322 ;;      Params:         0       0       0
+  1323 ;;      Locals:         0       0       0
+  1324 ;;      Temps:          2       0       0
+  1325 ;;      Totals:         2       0       0
+  1326 ;;Total ram usage:        2 bytes
+  1327 ;; Hardware stack levels used:    1
+  1328 ;; This function calls:
+  1329 ;;		Nothing
+  1330 ;; This function is called by:
+  1331 ;;		Interrupt level 1
+  1332 ;; This function uses a non-reentrant model
+  1333 ;;
+  1334                           
+  1335  0004                     _isr:	
+  1336                           
+  1337                           ;incstack = 0
+  1338  0004  147E               	bsf	126,0	;set compiler interrupt flag (level 1)
+  1339                           
+  1340                           ; Regs used in _isr: [wreg+status,2+status,0]
+  1341  0005  3180               	pagesel	$
+  1342  0006  0020               	movlb	0	; select bank0
+  1343  0007  087F               	movf	127,w
+  1344  0008  00F1               	movwf	??_isr+1
+  1345                           
+  1346                           ;main.c: 39: if(T0IE && T0IF)
+  1347  0009  1A8B               	btfsc	11,5	;volatile
+  1348  000A  1D0B               	btfss	11,2	;volatile
+  1349  000B  2822               	goto	i1l39
+  1350                           
+  1351                           ;main.c: 40: {
+  1352                           ;main.c: 41: T0IF = 0;
+  1353  000C  110B               	bcf	11,2	;volatile
+  1354                           
+  1355                           ;main.c: 42: oneTwentyHertz = 1;
+  1356  000D  3001               	movlw	1
+  1357  000E  00F0               	movwf	??_isr
+  1358  000F  0870               	movf	??_isr,w
+  1359  0010  00FB               	movwf	_oneTwentyHertz	;volatile
+  1360                           
+  1361                           ;main.c: 45: if (oneTwentyHertz)
+  1362  0011  087B               	movf	_oneTwentyHertz,w	;volatile
+  1363  0012  1903               	btfsc	3,2
+  1364  0013  2822               	goto	i1l39
+  1365                           
+  1366                           ;main.c: 46: {
+  1367                           ;main.c: 47: oneTwentyHertz = 0;
+  1368  0014  01FB               	clrf	_oneTwentyHertz	;volatile
+  1369                           
+  1370                           ;main.c: 49: if (accumulator >= 1)
+  1371  0015  087A               	movf	_accumulator,w	;volatile
+  1372  0016  1903               	btfsc	3,2
+  1373  0017  281E               	goto	i1l668
+  1374                           
+  1375                           ;main.c: 50: {
+  1376                           ;main.c: 51: accumulator = 0;
+  1377  0018  01FA               	clrf	_accumulator	;volatile
+  1378                           
+  1379                           ;main.c: 52: sixtyHertz = 1;
+  1380  0019  3001               	movlw	1
+  1381  001A  00F0               	movwf	??_isr
+  1382  001B  0870               	movf	??_isr,w
+  1383  001C  00BA               	movwf	_sixtyHertz	;volatile
+  1384                           
+  1385                           ;main.c: 53: }
+  1386  001D  2822               	goto	i1l39
+  1387  001E                     i1l668:	
+  1388                           
+  1389                           ;main.c: 54: else
+  1390                           ;main.c: 55: accumulator++;
+  1391  001E  3001               	movlw	1
+  1392  001F  00F0               	movwf	??_isr
+  1393  0020  0870               	movf	??_isr,w
+  1394  0021  07FA               	addwf	_accumulator,f	;volatile
+  1395  0022                     i1l39:	
+  1396  0022  0871               	movf	??_isr+1,w
+  1397  0023  00FF               	movwf	127
+  1398  0024  107E               	bcf	126,0	;clear compiler interrupt flag (level 1)
+  1399  0025  0009               	retfie
+  1400  0026                     __end_of_isr:	
+  1401  007E                     btemp	set	126	;btemp
+  1402  007E                     int$flags	set	126
+  1403  007E                     wtemp0	set	126
 
 
 Data Sizes:
@@ -1348,7 +1428,7 @@ Data Sizes:
 Auto Spaces:
     Space          Size  Autos    Used
     COMMON           14     10      12
-    BANK0            80     24      25
+    BANK0            80     26      27
     BANK1            32      0       0
 
 Pointer List with Targets:
@@ -1385,12 +1465,12 @@ Call Graph Tables:
  ---------------------------------------------------------------------------------
  (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
  ---------------------------------------------------------------------------------
- (0) _main                                                17    17      0    1312
-                                              7 BANK0     17    17      0
+ (0) _main                                                19    19      0    1770
+                                              7 BANK0     19    19      0
                              ___wmul
                          _displayLED
  ---------------------------------------------------------------------------------
- (1) _displayLED                                           9     7      2     409
+ (1) _displayLED                                           9     7      2     669
                                               8 COMMON     2     0      2
                                               0 BANK0      7     7      0
                              ___wmul (ARG)
@@ -1433,11 +1513,11 @@ SFR2                 0      0       0       3        0.0%
 STACK                0      0       0       3        0.0%
 BITSFR3              0      0       0       4        0.0%
 SFR3                 0      0       0       4        0.0%
-ABS                  0      0      25       4        0.0%
+ABS                  0      0      27       4        0.0%
 BITBANK0            50      0       0       5        0.0%
 BITSFR4              0      0       0       5        0.0%
 SFR4                 0      0       0       5        0.0%
-BANK0               50     18      19       6       31.3%
+BANK0               50     1A      1B       6       33.8%
 BITSFR5              0      0       0       6        0.0%
 SFR5                 0      0       0       6        0.0%
 BITBANK1            20      0       0       7        0.0%
@@ -1448,7 +1528,7 @@ BITSFR7              0      0       0       8        0.0%
 SFR7                 0      0       0       8        0.0%
 BITSFR8              0      0       0       9        0.0%
 SFR8                 0      0       0       9        0.0%
-DATA                 0      0      25       9        0.0%
+DATA                 0      0      27       9        0.0%
 BITSFR9              0      0       0      10        0.0%
 SFR9                 0      0       0      10        0.0%
 BITSFR10             0      0       0      11        0.0%
@@ -1498,46 +1578,48 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.45 build -152302408 
-Symbol Table                                                                                   Wed Feb 13 20:32:42 2019
+Symbol Table                                                                                   Sat Mar 02 12:43:55 2019
 
-                          l80 00D4                            l90 0241                            l58 0066  
-                          l67 00A8                            l76 00CC           ___wmul@multiplicand 0074  
-                         l608 023B                           l730 01AD                           l802 00D6  
-                         l724 015D                           l728 01A8                           l808 00BB  
-                         l772 0064                           l764 0058                           l756 004F  
-                         l790 00B5                           l792 00BA                           l788 00B0  
-                         l798 00CE                           u405 0247                           u604 013D  
-                         u605 013C                           u614 0158                           u615 0157  
-                         u634 0173                           u395 0242                           u635 0172  
-                         u715 0090                           u644 0188                           u645 0187  
-                         u654 01A3                           u655 01A2                           u594 0128  
-                         u595 0127                           u777 00A1                           u787 0102  
-                         _isr 0004                           wreg 0009                  __CFG_LVP$OFF 0000  
-                        ?_isr 0070                          _T0IE 005D                          _T0IF 005A  
-                 main@countUp 0033                          i1l39 0022                          _WPUA 020C  
-                        _main 002E                          fsr0h 0005                          indf0 0000  
-                        fsr0l 0004                          btemp 007E                          start 0026  
-                       ??_isr 0070                         ?_main 0070                 __CFG_WDTE$OFF 0000  
-                       i1l638 001E                         _PORTA 000C                         _TRISA 008C  
-                main@nextGame 0034                         status 0003                         wtemp0 007E  
-              __CFG_MCLRE$OFF 0000               __initialization 0027                  __end_of_main 010D  
-                      ??_main 0027                        _ADCON0 009D                        _ANSELA 018C  
-               displayLED@pos 0026                        _INTCON 000B                        _OSCCON 0099  
-                      ___wmul 0239            main@accumulatorTwo 0032       __end_of__initialization 002B  
-              __pcstackCOMMON 0070             main@gameDisplayed 0037                    __pbssBANK0 0038  
-                  __pmaintext 002E                       ?___wmul 0072                    __pintentry 0004  
-                  _displayLED 010D               __size_of___wmul 001B    __end_ofdisplayLED@ledAnode 0268  
-                     __ptext1 010D                       __ptext2 0239                  __size_of_isr 0022  
-            displayLED@enable 0079              displayLED@colour 0078                       main@pos 0035  
-        end_of_initialization 002B                main@updateRate 002F             __end_of_positions 0239  
-            __CFG_FOSC$INTOSC 0000                   ?_displayLED 0078                    _sixtyHertz 0038  
-                  main@enable 0031                    main@colour 0030                __end_of___wmul 0254  
+                          l62 009A                            l71 00DC                            l80 0100  
+                          l84 0108                            l94 0275           ___wmul@multiplicand 0074  
+                         l638 026F                           l832 0075                           l824 005B  
+                         l818 0054                           l780 0191                           l870 00E4  
+                         l854 0098                           l846 008C                           l838 0083  
+                         l784 01DC                           l880 0102                           l872 00E9  
+                         l786 01E1                           l890 00EF                           l874 00EE  
+                         l884 010A                           u435 0276                           u445 027B  
+                         u714 01A7                           u715 01A6                           u724 01BC  
+                         u725 01BB                           u734 01D7                           u735 01D6  
+                         u674 015C                           u675 015B                           u907 00D5  
+                         u835 00C4                           u684 0171                           u685 0170  
+                         u917 0136                           u694 018C                           u695 018B  
+                         u897 0069                           _isr 0004                           wreg 0009  
+                __CFG_LVP$OFF 0000                          ?_isr 0070                          _T0IE 005D  
+                        _T0IF 005A                   main@countUp 0033                          i1l39 0022  
+                        _WPUA 020C                          _main 002E                          fsr0h 0005  
+                        indf0 0000                          fsr0l 0004                          btemp 007E  
+                        start 0026                         ??_isr 0070                         ?_main 0070  
+               __CFG_WDTE$OFF 0000                         i1l668 001E                         _PORTA 000C  
+                       _TRISA 008C                  main@nextGame 0034                         main@j 0036  
+                       status 0003                         wtemp0 007E                __CFG_MCLRE$OFF 0000  
+             __initialization 0027                  __end_of_main 0141                        ??_main 0027  
+                      _ADCON0 009D                        _ANSELA 018C                 displayLED@pos 0026  
+                      _INTCON 000B                        _OSCCON 0099                        ___wmul 026D  
+          main@accumulatorTwo 0032       __end_of__initialization 002B                __pcstackCOMMON 0070  
+           main@gameDisplayed 0039                    __pbssBANK0 003A                    __pmaintext 002E  
+                     ?___wmul 0072                    __pintentry 0004                    _displayLED 0141  
+             __size_of___wmul 001B    __end_ofdisplayLED@ledAnode 029C                       __ptext1 0141  
+                     __ptext2 026D                  __size_of_isr 0022              displayLED@enable 0079  
+            displayLED@colour 0078                       main@col 0035                       main@pos 0037  
+        end_of_initialization 002B                main@updateRate 002F             __end_of_positions 026D  
+            __CFG_FOSC$INTOSC 0000                   ?_displayLED 0078                    _sixtyHertz 003A  
+                  main@enable 0031                    main@colour 0030                __end_of___wmul 0288  
          start_initialization 0027                   __end_of_isr 0026                   _accumulator 007A  
                     ??___wmul 0076           __size_of_displayLED 00A5                   __pbssCOMMON 007A  
-                   ___latbits 0000                 __pcstackBANK0 0020  __end_ofdisplayLED@ledCathode 025E  
-          displayLED@ledAnode 025E                ___wmul@product 0076                     _positions 01B2  
-           ___wmul@multiplier 0072                  ??_displayLED 0020            __end_of_displayLED 01B2  
-        displayLED@ledCathode 0254                 __size_of_main 00DF                      int$flags 007E  
-                    intlevel1 0000                 __pstringtext1 01B2                 __pstringtext2 0254  
-               __pstringtext3 025E               main@statesShown 0036                _oneTwentyHertz 007B  
+                   ___latbits 0000                 __pcstackBANK0 0020  __end_ofdisplayLED@ledCathode 0292  
+          displayLED@ledAnode 0292                ___wmul@product 0076                     _positions 01E6  
+           ___wmul@multiplier 0072                  ??_displayLED 0020            __end_of_displayLED 01E6  
+        displayLED@ledCathode 0288                 __size_of_main 0113                      int$flags 007E  
+                    intlevel1 0000                 __pstringtext1 01E6                 __pstringtext2 0288  
+               __pstringtext3 0292               main@statesShown 0038                _oneTwentyHertz 007B  
                   _OPTION_REG 0095  

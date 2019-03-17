@@ -119,6 +119,17 @@ void main()
   unsigned char countUp = 1;
   unsigned char nextGame = 0;
 
+  
+  // Test all of the LEDs are in the correct position
+  for (unsigned char col = 0; col <= 1; col ++)
+  {
+    for (unsigned char j = 9; j > 0; j--)
+    {
+        displayLED(j,col,1);
+        __delay_ms(100);
+    }
+  displayLED(10,0,1);
+  }
 
   while(1)
   {

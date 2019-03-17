@@ -4388,6 +4388,7 @@ accumulator++;
 }
 
 
+
 void displayLED(unsigned char pos, unsigned char colour, unsigned char enable)
 {
 
@@ -4423,6 +4424,7 @@ PORTA= 0;
 
 }
 
+
 void main()
 {
 
@@ -4447,6 +4449,17 @@ unsigned char gameDisplayed = 0;
 unsigned char countUp = 1;
 unsigned char nextGame = 0;
 
+
+
+for (unsigned char col = 0; col <= 1; col ++)
+{
+for (unsigned char j = 9; j > 0; j--)
+{
+displayLED(j,col,1);
+_delay((unsigned long)((100)*(32000000/4000.0)));
+}
+displayLED(10,0,1);
+}
 
 while(1)
 {

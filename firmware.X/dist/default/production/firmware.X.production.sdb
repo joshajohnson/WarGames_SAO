@@ -11,9 +11,9 @@
 [v ___wmul __wmul `(ui  1 e 2 0 ]
 "36 C:\Users\jonno\Dropbox\Projects\WarGames_SAO\firmware.X\main.c
 [v _isr isr `II(v  1 e 1 0 ]
-"61
+"62
 [v _displayLED displayLED `(v  1 e 1 0 ]
-"96
+"98
 [v _main main `(v  1 e 1 0 ]
 "349 E:\XC8\include\pic12f1571.h
 [v _INTCON INTCON `VEuc  1 e 1 @11 ]
@@ -43,43 +43,47 @@
 [v _accumulator accumulator `VEuc  1 e 1 0 ]
 "18
 [v _positions positions `DC[15][9]uc  1 e 135 0 ]
-"96
+"98
 [v _main main `(v  1 e 1 0 ]
 {
-"155
-[v main@pos pos `c  1 a 1 21 ]
-"116
-[v main@gameDisplayed gameDisplayed `uc  1 a 1 23 ]
-"113
-[v main@statesShown statesShown `c  1 a 1 22 ]
+"126
+[v main@j j `uc  1 a 1 22 ]
+"168
+[v main@pos pos `c  1 a 1 23 ]
+"124
+[v main@col col `uc  1 a 1 21 ]
 "118
-[v main@nextGame nextGame `uc  1 a 1 20 ]
-"117
-[v main@countUp countUp `uc  1 a 1 19 ]
-"114
-[v main@accumulatorTwo accumulatorTwo `uc  1 a 1 18 ]
-"112
-[v main@enable enable `uc  1 a 1 17 ]
-"111
-[v main@colour colour `uc  1 a 1 16 ]
+[v main@gameDisplayed gameDisplayed `uc  1 a 1 25 ]
 "115
+[v main@statesShown statesShown `c  1 a 1 24 ]
+"120
+[v main@nextGame nextGame `uc  1 a 1 20 ]
+"119
+[v main@countUp countUp `uc  1 a 1 19 ]
+"116
+[v main@accumulatorTwo accumulatorTwo `uc  1 a 1 18 ]
+"114
+[v main@enable enable `uc  1 a 1 17 ]
+"113
+[v main@colour colour `uc  1 a 1 16 ]
+"117
 [v main@updateRate updateRate `uc  1 a 1 15 ]
-"164
+"177
 } 0
-"61
+"62
 [v _displayLED displayLED `(v  1 e 1 0 ]
 {
 [v displayLED@pos pos `uc  1 a 1 wreg ]
 [v displayLED@pos pos `uc  1 a 1 wreg ]
 [v displayLED@colour colour `uc  1 p 1 8 ]
 [v displayLED@enable enable `uc  1 p 1 9 ]
-"67
-[v displayLED@ledAnode ledAnode `DC[10]uc  1 s 10 ledAnode ]
 "68
+[v displayLED@ledAnode ledAnode `DC[10]uc  1 s 10 ledAnode ]
+"69
 [v displayLED@ledCathode ledCathode `DC[10]uc  1 s 10 ledCathode ]
-"70
+"71
 [v displayLED@pos pos `uc  1 a 1 6 ]
-"94
+"95
 } 0
 "15 E:\XC8\sources\common\Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
